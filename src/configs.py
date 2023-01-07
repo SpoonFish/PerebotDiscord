@@ -1,5 +1,5 @@
 
-import account
+import src.account as account
 
 def write_configs(server, channel='', hidden=''):
     for serv in account.serv_list:

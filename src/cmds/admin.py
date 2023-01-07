@@ -1,9 +1,9 @@
 import discord
-import configs
-import funcs.formulas as formulas
-import consts
-import account
-import funcs.checks as checks
+import src.configs as configs
+import src.consts as consts
+import src.funcs.formulas as formulas
+import src.account as account
+import src.funcs.checks as checks
 
 async def set_channel(channel, ctx):
     if channel == 'all':

@@ -1,7 +1,6 @@
 
 import os
-import configs
-import consts
+import src.consts as consts
 def get_inv(acc, item):
     inv = acc.inventory
     for i in inv:

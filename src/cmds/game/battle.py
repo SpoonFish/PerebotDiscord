@@ -1,17 +1,17 @@
-import consts
-import counters
-import account
-import funcs.formulas as formulas
-import funcs.checks as checks
+import src.consts as consts
+import src.counters as counters
+import src.account as account
+import src.funcs.formulas as formulas
+import src.funcs.checks as checks
 import random
 import discord
-import party_manager
-import counters
+import src.party_manager as party_manager
+import src.counters as counters
 import math
-import funcs.getter as getter
-import configs
-import image_generator
-import pvp_manager
+import src.funcs.getter as getter
+import src.configs as configs
+import src.image_generator as image_generator
+import src.pvp_manager as pvp_manager
 
 def create_fight_view(battle):
     class Fight(discord.ui.View):

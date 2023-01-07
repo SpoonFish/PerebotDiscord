@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 import random
 import src.account as account
-import src.configs as configs
+import configs as configs
 import src.consts as consts
 import src.cmds.game.chef as chef_cmds
 import src.cmds.game.info as info_cmds

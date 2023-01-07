@@ -1,8 +1,8 @@
 
 import os
-import configs
-import consts
-import account
+import src.configs as configs
+import src.consts as consts
+import src.account as account
 
 ADMINS = ['SpoonFsh#5129', 'jeels#3517', 'Pereger#1760', 'Pointymctest2#7442']
 

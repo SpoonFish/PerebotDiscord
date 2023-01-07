@@ -1,6 +1,6 @@
 import math
-import funcs.getter as getter
-import consts
+import src.funcs.getter as getter
+import src.consts as consts
 import random
 class Stat:
     def __init__(self, name, value):

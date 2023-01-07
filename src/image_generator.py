@@ -1,12 +1,12 @@
 
-import consts
+import src.consts as consts
 import pygame
 import discord
 import time
 import os
-import account
-import party_manager
-import pvp_manager
+import src.account as account
+import src.party_manager as party_manager
+import src.pvp_manager as pvp_manager
 scale = 4
 pygame.init()
 
