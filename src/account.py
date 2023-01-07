@@ -1,9 +1,8 @@
-import funcs.formulas as formulas
-import consts
-import counters
+import src.funcs.formulas as formulas
+import src.consts as consts
+import src.counters as counters
 import random
-import funcs.checks as checks
-import party_manager
+import src.funcs.checks as checks
 
 class Server():
     def __init__(self, id, name, ephemeral, channel_id):
