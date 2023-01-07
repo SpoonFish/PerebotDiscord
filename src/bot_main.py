@@ -3,23 +3,23 @@ import discord
 #
 from discord.ext import commands
 import random
-import account
-import configs
-import consts
-import cmds.game.chef as chef_cmds
-import cmds.game.info as info_cmds
-import cmds.game.trade as trade_cmds
-import cmds.game.tavern as tavern_cmds
-import cmds.game.battle as battle_cmds
-import cmds.game.smith as smith_cmds
-import cmds.game.library as library_cmds
-import cmds.game.interact as interact_cmds
-import cmds.game.party as party_cmds
-import cmds.game.pvp as pvp_cmds
-from cmds import admin
-from funcs import checks as check
+import src.account as account
+import src.configs as configs
+import src.consts as consts
+import src.cmds.game.chef as chef_cmds
+import src.cmds.game.info as info_cmds
+import src.cmds.game.trade as trade_cmds
+import src.cmds.game.tavern as tavern_cmds
+import src.cmds.game.battle as battle_cmds
+import src.cmds.game.smith as smith_cmds
+import src.cmds.game.library as library_cmds
+import src.cmds.game.interact as interact_cmds
+import src.cmds.game.party as party_cmds
+import src.cmds.game.pvp as pvp_cmds
+from src.cmds import admin
+from src.funcs import checks as check
 from dotenv import load_dotenv
-load_dotenv("//.env")
+load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 intents = discord.Intents.all()
 client = commands.Bot(intents=intents , command_prefix= "/")
