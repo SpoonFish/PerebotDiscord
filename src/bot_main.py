@@ -1,6 +1,6 @@
 import os
 import discord
-#
+#w
 from discord.ext import commands
 import random
 import src.account as account
