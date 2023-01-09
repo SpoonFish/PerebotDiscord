@@ -67,9 +67,10 @@ async def hero_shop(message, acc, pre,hide):
 > crystal berry         - 3 hero coins
 > midas ring            - 20 hero coins
 > phase wings           - 25 hero coins
-> +10% DMG 24h          - 5 hero coins (coming soon)
-> +10% XP 24h           - 5 hero coins (coming soon)
-> +10% Loot Chance 24h  - 5 hero coins (coming soon)
+> brawler elixir        - 4 hero coins
+> bard elixir           - 4 hero coins
+> knight elixir        - 4 hero coins
+> mage elixir           - 4 hero coins
 
 Use {pre}buy <item> <amount> to buy an item
 Use {pre}sell <item> <amount> to sell an item

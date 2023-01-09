@@ -1,4 +1,4 @@
-import os
+'''import os
 import discord
 #ww
 from discord.ext import commands
@@ -24,7 +24,6 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 intents = discord.Intents.all()
 client = commands.Bot(intents=intents , command_prefix= "/")
 pre = '/'
-
 
 class VoteView(discord.ui.View):
     def __init__(self):
@@ -67,18 +66,18 @@ async def configure(ctx, channel: discord.TextChannel = None):
 
     if check.admin(ctx.author):
         if channel == None:
-            await ctx.respond(f'''```
+            await ctx.respond(f```
 Configuration Commands usage:
 
     {pre}configure-channel <channel name> - sets the channel the bot can be used in
     {pre}configure-all_channels - sets the channel the bot can be used in to all channels
     {pre}configure-private <yes/no> - sets whether the bot sends private(ephemeral) or public messages
-```''', ephemeral=hide)
+```, ephemeral=hide)
         else:
            await admin.set_channel(channel, ctx) 
     #{pre}configure warning <yes/no> - warn the user if they use a command in the wrong channel
     #{pre}configure prefix <prefix, default:'/'> - change the prefix for bot commands. It is set to / by default
-    #```''')
+    #```)
         return
 
 @client.slash_command(name="configure-private", description='Configure if the bot sends private (for the user only) messages or public')
@@ -89,13 +88,13 @@ async def configure_ephemeral(ctx, hidden: discord.Option(bool) = None):
     yesno = hidden
     if check.admin(ctx.author):
         if yesno == None:
-            await ctx.respond(f'''```
+            await ctx.respond(f```
 Configuration Commands usage:
 
     {pre}configure-channel <channel name> - sets the channel the bot can be used in
     {pre}configure-all_channels - sets the channel the bot can be used in to all channels
     {pre}configure-private <yes/no> - sets whether the bot sends private(ephemeral) or public messages
-```''', ephemeral=hide)
+```, ephemeral=hide)
         else:
            await admin.set_ephemeral(ctx, yesno) 
         return
@@ -167,7 +166,7 @@ async def map(ctx):
     except:
         votes=  0
     hide = configs.get_config(ctx.guild.name, 'ephemeral')  
-    await ctx.respond(f'''**__Normal vote rewards:__**
+    await ctx.respond(f**__Normal vote rewards:__**
 `100%` - aurum (LVL * 50, randomised by 25%)
 `100%` - minae (LVL * 25, randomised by 25%)
 `100%` - hero coin, amounts:
@@ -194,7 +193,7 @@ async def map(ctx):
 **50th Vote** - +500 magic dust, +5000 minae, +5 hero coin, +20 honey apples
 
 You have voted {votes} times
-''', ephemeral = hide)
+, ephemeral = hide)
 
 
 @client.slash_command(name="map", description='Shows the map')
@@ -475,7 +474,7 @@ async def library_spells(ctx, tier: discord.Option(int)=1):
 
     
     await library_cmds.spells(ctx, tier, acc, pre, hide)
-'''
+
 @client.slash_command(name="library-check-upgrade", description='Check the cost of an upgrade for a spell')
 async def library_check(ctx, spell: discord.Option(str)):
     if not is_init(ctx): 
@@ -489,7 +488,7 @@ async def library_check(ctx, spell: discord.Option(str)):
         await library_cmds.check(ctx, spell, acc, pre, hide)
     else:
         await ctx.respond(f'You can only use this command in the town.', ephemeral=hide)
-'''
+
 
 @client.slash_command(name="smith-upgrade", description='Upgrade an item (max level 25)')
 async def smith_upgrade(ctx, item: discord.Option(str), upgrades: discord.Option(int)=1):
@@ -821,7 +820,6 @@ async def leaderboard_show(ctx, user: discord.User=None):
 
     
     await info_cmds.leaderboard(ctx, acc, pre, hide, user)
-
 @client.slash_command(name="report-bug-or-exploit", description='Report a bug or exploit you might have found')
 async def report(ctx, bug: discord.Option(str)):
     if not is_init(ctx): 
@@ -974,7 +972,7 @@ async def on_message(message):
                         herocoins = 4
                     else:
                         herocoins = 5
-                    '''
+                    
         **1st Vote** - +15 apple, +5 small hp potion
 
         **5th Vote** - +5 apple pie, +5 blueberry pie
@@ -988,7 +986,7 @@ async def on_message(message):
         **40th Vote** - +400 magic dust, +2500 minae, +5 hero coin, +10 silva salad
 
         **50th Vote** - +500 magic dust, +5000 minae, +5 hero coin, +20 honey apples
-                    '''
+                    
                     try:
                         acc.vars['votes'][0] += 1
                     except:
@@ -1018,7 +1016,7 @@ async def on_message(message):
                     account.give_item('hero coin', herocoins, acc)
                     account.give_item('minae', minae, acc)
                     account.write_file(account.acc_list)
-                    string = f'''**Thanks {user.name}!**
+                    string = f**Thanks {user.name}!**
 Your vote is highly appreciated by all of the Perebot community in SpoonFish Studios :)
 You have now voted **__{acc.vars['votes'][0]}__** times!
 
@@ -1026,57 +1024,57 @@ Your **rewards** as a LVL {acc.level} adventurer:
  ━━ <:minae:1059950856365166752> Minae: {minae}
  ━━ <:aurum:1059950170927812698> Aurum: {aurum}
  ━━ <:hero_coin:1059952396786225202> Hero Coins: {herocoins}
-'''
+
                     
                     if votes == 1:
                         account.give_item('apple', 15, acc)
                         account.give_item('small hp potion', 5, acc)
-                        string += '''**1st Vote!**
+                        string += **1st Vote!**
  ━━ Apple: 15
  ━━ Small Hp Potion: 5                    
-                        '''
+                        
                     elif votes == 5:
                         account.give_item('apple pie', 5, acc)
                         account.give_item('blueberry pie', 5, acc)
-                        string += '''**5th Vote!**
+                        string += **5th Vote!**
  ━━ Apple Pie: 5
  ━━ Blueberry Pie: 5                    
-                        '''
+                        
                     elif votes == 10:
                         account.give_item('magic dust', 50, acc)
                         account.give_item('potato salad', 5, acc)
-                        string += '''**10th Vote!**
+                        string += **10th Vote!**
  ━━ Magic Dust: 50
  ━━ Potato Salad: 5                    
-                        '''
+                        
                     elif votes == 20:
                         account.give_item('magic dust', 150, acc)
-                        string += '''**20th Vote!**
+                        string += **20th Vote!**
  ━━ Magic Dust: 150             
-                        '''
+                        
                     elif votes == 30:
                         account.give_item('magic dust', 250, acc)
-                        string += '''**30th Vote!**
+                        string += *30th Vote!**
  ━━ Magic Dust: 250             
-                        '''
+                        
                     elif votes == 40:
                         account.give_item('magic dust', 400, acc)
                         account.give_item('silva salad', 10, acc)
-                        string += '''**40th Vote!**
+                        string += **40th Vote!**
  ━━ Magic Dust: 400
  ━━ Silva Salad: 10           
-                        '''
+                        
                     elif votes == 50:
                         account.give_item('magic dust', 500, acc)
                         account.give_item('honey apples', 20, acc)
-                        string += '''**50th Vote!**
+                        string += **50th Vote!**
  ━━ Magic Dust: 500
  ━━ Honey Apples: 20         
-                        '''
+                        
 
-                    string += '''
+                    string += 
 ﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌
-'''
+
 
                     await user.send(string)
         else:
@@ -1165,3 +1163,4 @@ async def chef_cook(ctx, item: discord.Option(str), amount: discord.Option(int)=
 
 client.run(TOKEN)
 
+'''

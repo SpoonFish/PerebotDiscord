@@ -197,7 +197,17 @@ Use `{pre}flee` - to escape the battle (40% chance to work, 20% if fighting a bo
 async def map(message, acc, pre, hide):
     body = f'You are in **{acc.area}**\nPlayer Head = Current location'
     await message.respond(body, ephemeral=hide, file=image_generator.generate_map(acc.area))
-    
+async def boosts(message, acc, hide):
+    boosts = getter.get_total_boost(acc)
+    if not boosts['any']:
+        await message.respond('You have no boosts active right now!', ephemeral=hide)
+        return
+    body = '__Total current boosts:__\n'
+    for boost in boosts:
+        if boost == 'any': continue
+        if boost == "%.SPELL.COST":body += f'**{boost} ---** -{boosts[boost]}%\n'
+        else:body += f'**{boost} ---** +{boosts[boost]}%\n'
+    await message.respond(body, ephemeral=hide)
 
 async def area(message, acc, pre, hide):
     body = f'**{acc.area}**:\n\n'

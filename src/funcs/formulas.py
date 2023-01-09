@@ -25,7 +25,7 @@ def get_next_xp(level):
     return math.ceil((level**(1.65+level/26.7) + level*40 - 7)-450*(level/51)) +30
 
 def get_spell_slots(level):
-    return 1 + math.floor((level+5)/10)
+    return min(5, 1 + math.floor((level+5)/10))
 
 def form_dmg(dmg, crit=0, crit_dmg=0):
     dmg = dmg * random.uniform(0.9,1.1)
@@ -49,7 +49,7 @@ def protect(dmg, df):
     dmg =(dmg)*(1-df/400)
     return round(max(1, dmg))
 
-def get_stats(acc):
+def get_stats(acc, calc_boost = True):
     stats = {'HP': max_hp(acc.level), 'MP': max_mp(acc.level), 'DMG':  2+round(acc.level/3), 'DEF': 2+round(acc.level*1.3), '%.CRIT': 2, '%.CRIT.DMG': 50, '%.SPELL.DMG': 0}
     
     def stat_adder(equipment):
@@ -62,8 +62,15 @@ def get_stats(acc):
     stat_adder(acc.helmet)
     stat_adder(acc.offhand)
     stat_adder(acc.ring)
-    stats['HP'] = round(stats['HP'])
-    stats['MP'] = round(stats['MP'])
+    
+    if calc_boost:
+        boost = getter.get_total_boost(acc)
+        stats['HP'] = round(stats['HP']*(1+boost["MAX HP"]/100))
+        stats['MP'] = round(stats['MP']*(1+boost["MAX MP"]/100))
+    else:
+        
+        stats['HP'] = round(stats['HP'])
+        stats['MP'] = round(stats['MP'])
     for stat in stats:
         stats[stat]= round(stats[stat], 1)
     return stats

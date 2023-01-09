@@ -206,6 +206,8 @@ async def map(ctx):
     hide = configs.get_config(ctx.guild.name, 'ephemeral')
     acc = account.get_account(ctx.author)
 
+    await info_cmds.boosts(ctx, acc, hide)
+    return
     await info_cmds.map(ctx, acc, pre, hide)
 @client.slash_command(name="actions", description='Shows the current main actions you can do')
 async def actions(ctx):
@@ -798,6 +800,17 @@ async def party_status(ctx):
     
     await party_cmds.status(ctx, acc, pre, hide)
 
+
+@client.slash_command(name="boosts", description='See your current boosts')
+async def boosts(ctx):
+    if not is_init(ctx): 
+        await ctx.respond(f'There are no configuration settings in this server ({ctx.author.guild.name}) yet. An admin must use /initiate to start using/configuring the bot') ;return
+    if not check.channel(ctx.channel): await ctx.respond('You cannot use the bot in this channel!', ephemeral=True); return
+    if not check.account_exists(ctx.author): await ctx.respond('You need to create an account first! Use `/start` to create an account', ephemeral=True); return
+    hide = configs.get_config(ctx.guild.name, 'ephemeral')
+    acc = account.get_account(ctx.author)
+
+    await info_cmds.boosts(ctx, acc, hide)
 @client.slash_command(name="party-kick", description='Kick a player from your party')
 async def party_kick(ctx, user: discord.User):
     if not is_init(ctx): 
@@ -850,20 +863,20 @@ async def prepare_restart(ctx):
     if check.super_admin(ctx.author):
         channel = client.get_channel(1054119036637692024)
         #await channel.send('lol')
-        file = discord.File('accounts.csv')
+        file = discord.File('assets/accounts.csv')
         await channel.send('accounts:', file=file)
-        file = discord.File('parties.csv')
+        file = discord.File('assets/parties.csv')
         await channel.send('parties:', file=file)
-        file = discord.File('servers.csv')
+        file = discord.File('assets/servers.csv')
         await channel.send('servers:', file=file)
-        file = discord.File('pvp.csv')
+        file = discord.File('assets/pvp.csv')
         await channel.send('pvp:', file=file)
         await ctx.respond(f'```SUCCESS```')
     else:
         await ctx.respond(f'```knowledge is the greatest pain of all...```', ephemeral=True)
 
 @client.slash_command(name="give", description='give an item to a player')
-async def prepare_restart(ctx, item: discord.Option(str), amount: discord.Option(int), player: discord.User):
+async def give(ctx, item: discord.Option(str), amount: discord.Option(int), player: discord.User):
     hide = configs.get_config(ctx.guild.name, 'ephemeral')
     if check.super_admin(ctx.author):
         acc = account.get_account(ctx.author)

@@ -2,6 +2,7 @@ import src.funcs.formulas as formulas
 import src.consts as consts
 import src.counters as counters
 import random
+import datetime
 import src.funcs.checks as checks
 
 class Server():
@@ -438,6 +439,23 @@ def write_file(acc_list = acc_list, file = 'assets/accounts.csv'):
     if 1:
         with open(file, 'w', encoding = "utf-8") as f:
             for account in acc_list:
+                try:
+                    boosts = account.vars["boost"]
+                    for i in range(7, 0, -2):
+                        if i > len(boosts)-1:
+                            continue
+                        date = boosts[i]
+                        now = datetime.datetime.now()
+                        times = [int(i) for i in date.split('/')]
+                        end_time = datetime.datetime(times[0],times[1],times[2],times[3],times[4],times[5])
+                        if now > end_time:
+                            account.vars["boost"].pop(i)
+                            account.vars["boost"].pop(i-1)
+
+
+
+                except: pass
+
                 #print(account.name)
                 f.write(str(account.id)+':\n')
                 f.write(' - Lvl: '+str(account.level)+'\n')

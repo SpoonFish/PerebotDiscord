@@ -38,7 +38,20 @@ emojis = {
     'Boat 1': '⛵️',
     'Krakow\'s Cave': '🏛',
 }
+boosts = {
+    'shiny elixir': {"stats": [['XP', 25]], "time": 60},
+    'lucky elixir': {"stats": [['LOOT', 25]], "time": 60},
 
+    'red elixir': {"stats": [['DMG', 5]], "time": 20},
+    'silver elixir': {"stats": [['DEF', 5]], "time": 20},
+    'green elixir': {"stats": [['HP', 10]], "time": 20},
+    'blue elixir': {"stats": [['MP', 10]], "time": 20},
+
+    'knight elixir': {"stats": [['%.CRIT.DMG', 10], ['%.CRIT', 5]], "time": 30},
+    'mage elixir': {"stats": [['%.SPELL.DMG', 10], ['%.SPELL.COST', 30]], "time": 30},
+    'brawler elixir': {"stats": [['DEF', 10], ['MAX HP', 15]], "time": 30},
+    'bard elixir': {"stats": [['HEAL', 20], ['MAX MP', 15]], "time": 30},
+}
 heals = {
     'crystal apple': [['HP', 1000]],
     'crystal berry': [['MP', 1000]],
@@ -68,12 +81,26 @@ heals = {
     'silva salad': [['HP', 35], ['MP', 60], ['EF', ['regeneration', 3, 4]]],
     'honey apples': [['HP', 30], ['MP', 30], ['EF', ['attunement', 3, 3]]],
 }
-hero_items = ['crystal apple','crystal berry','campfire','magic wallet','midas ring','phase wings']
+hero_items = ['crystal apple','crystal berry','campfire','magic wallet','midas ring','phase wings','knight elixir','brawler elixir','bard elixir','mage elixir']
 
 shop_items = ['apple','blueberry','spud','small hp potion','medium hp potion','large hp potion','small mp potion','medium mp potion','large mp potion','small mixed potion','medium mixed potion','large mixed potion','joke book','wooden shield','leather armour','leather helmet','leather gloves','wooden wand','small bell','wooden sword']
 krakow_shop_items = ['mystic conch','seafood kebab', 'fish n chips', 'sleeping bag', 'medium mixed potion', 'stick sword',]
 
 items = {
+    #max 4 elixirs at 1 time
+    'shiny elixir': {'desc': '+50% xp, 60 mins', 'buy': [7, 'hero coin'], 'sell': [400, 'aurum']},
+    'lucky elixir': {'desc': '+50% loot chance, 60 mins', 'buy': [7, 'hero coin'], 'sell': [400, 'aurum']},
+    'knight elixir': {'desc': '+10% CRIT.DMG, +5%.CRIT, 30 mins', 'buy': [4, 'hero coin'], 'sell': [400, 'aurum']},
+    'mage elixir': {'desc': '+10% SPELL.DMG, -30% SPELL MP COST, 30 mins', 'buy': [4, 'hero coin'], 'sell': [400, 'aurum']},
+    'brawler elixir': {'desc': '+10% DEF, +15% MAX HP, 30 mins', 'buy': [4, 'hero coin'], 'sell': [400, 'aurum']},
+    'bard elixir': {'desc': '+20% HEALING, +15% MAX MP, 30 mins', 'buy': [4, 'hero coin'], 'sell': [400, 'aurum']},
+
+    'red elixir': {'desc': '+5% DMG, 20 mins', 'buy': [800, 'aurum'], 'sell': [400, 'aurum']},
+    'silver elixir': {'desc': '+5% DEF, 20 mins', 'buy': [800, 'aurum'], 'sell': [400, 'aurum']},
+    'green elixir': {'desc': '+10% MAX HP, 20 mins', 'buy': [800, 'aurum'], 'sell': [400, 'aurum']},
+    'blue elixir': {'desc': '+10% MAX MP, 20 mins', 'buy': [800, 'aurum'], 'sell': [400, 'aurum']},
+
+
     'crystal berry': {'desc': 'Heals 1000 mp', 'buy': [2, 'hero coin'], 'sell': [100, 'aurum']},
     'crystal apple': {'desc': 'Heals 1000 hp, "don\'t get lost in the crystal dimension"', 'buy': [5, 'hero coin'], 'sell': [100, 'aurum']},
     'campfire': {'desc': 'Heals up to 75% HP and 65% MP outside of battle', 'buy': [20, 'hero coin'], 'sell': [100, 'aurum']},
@@ -576,11 +603,11 @@ mob_loot = {
     'aculeo': [['honey', 50, [1,2]],['wasp wing', 80, [1,2]], ['wasp stinger', 45, [1,1]],['minae', 50, [1,15]], ['wasp suit', 5, [1,1]]],
 
     'alpha wolf': [['small mp potion', 50, [1,1]],['small hp potion', 50, [1,1]],['wolf fur', 100, [6,10]], ['wolf paw', 100, [1,4]],['magic dust', 100, [40,49]],['minae', 100, [35,50]],['magic fang', 100, [1,2]], ['howling horn', 2, [1,1]], ['eye of the wolf', 3, [1,1]], ['wolf head', 4, [1,1]]],
-    'alpha wolf (hard)': [['small mixed potion', 50, [1,1]],['medium hp potion', 50, [1,1]],['aurum', 100, [150,250]],['wolf fur', 100, [6,10]], ['wolf paw', 100, [1,4]],['magic dust', 100, [65,110]],['minae', 100, [50,80]],['magic fang', 100, [1,4]], ['howling horn', 4, [1,1]], ['eye of the wolf', 6, [1,1]], ['wolf head', 8, [1,1]]],
-    'alpha wolf (extreme)': [['medium hp potion', 50, [1,1]],['medium mixed potion', 30, [1,1]],['aurum', 100, [300,550]],['wolf fur', 100, [6,10]], ['wolf paw', 100, [1,4]],['magic dust', 100, [65,100]],['minae', 100, [75,100]],['magic fang', 100, [1,6]], ['howling horn', 8, [1,1]], ['eye of the wolf', 12, [1,1]], ['wolf head', 16, [1,1]]],
-    'king polypus': [['meidum mp potion', 50, [1,1]],['small mixed potion', 50, [1,1]],['shellfish', 100, [2,7]],['clam shell', 100, [3,5]],['magic dust', 100, [55,66]],['crab shell', 100, [3,5]], ['shiny pearl', 100, [1,4]],['minae', 100, [50,75]],['magic tentacle', 100, [1,2]], ['tentacle chestplate', 3, [1,1]], ['coral sword', 3, [1,1]], ['inky ring', 2, [1,1]]],
-    'king polypus (hard)': [[['medium mixed potion', 20, [1,1]],['medium mp potion', 70, [1,1]],'aurum', 100, [250,600]],['shellfish', 100, [2,7]],['clam shell', 100, [3,5]],['magic dust', 100, [125,150]],['crab shell', 100, [3,5]], ['shiny pearl', 100, [1,4]],['minae', 100, [80,105]],['magic tentacle', 100, [1,4]], ['tentacle chestplate', 7, [1,1]], ['coral sword', 6, [1,1]], ['inky ring', 4, [1,1]]],
-    'king polypus (extreme)': [['large mp potion', 20, [1,1]],['medium mixed potion', 50, [1,1]],['aurum', 100, [500,850]],['shellfish', 100, [2,7]],['clam shell', 100, [3,5]],['magic dust', 100, [125,150]],['crab shell', 100, [3,5]], ['shiny pearl', 100, [1,4]],['minae', 100, [100,135]],['magic tentacle', 100, [1,6]], ['tentacle chestplate', 13, [1,1]], ['coral sword', 10, [1,1]], ['inky ring', 8, [1,1]]],
+    'alpha wolf (hard)': [['small mixed potion', 50, [1,1]],['medium hp potion', 50, [1,1]],['wolf fur', 100, [6,10]], ['wolf paw', 100, [1,4]],['magic dust', 100, [65,110]],['minae', 100, [50,80]],['magic fang', 100, [1,4]], ['howling horn', 4, [1,1]], ['eye of the wolf', 6, [1,1]], ['wolf head', 8, [1,1]]],
+    'alpha wolf (extreme)': [['medium hp potion', 50, [1,1]],['medium mixed potion', 30, [1,1]],['wolf fur', 100, [6,10]], ['wolf paw', 100, [1,4]],['magic dust', 100, [65,100]],['minae', 100, [75,100]],['magic fang', 100, [1,6]], ['howling horn', 8, [1,1]], ['eye of the wolf', 12, [1,1]], ['wolf head', 16, [1,1]]],
+    'king polypus': [['medium mp potion', 50, [1,1]],['small mixed potion', 50, [1,1]],['shellfish', 100, [2,7]],['clam shell', 100, [3,5]],['magic dust', 100, [55,66]],['crab shell', 100, [3,5]], ['shiny pearl', 100, [1,4]],['minae', 100, [50,75]],['magic tentacle', 100, [1,2]], ['tentacle chestplate', 3, [1,1]], ['coral sword', 3, [1,1]], ['inky ring', 2, [1,1]]],
+    'king polypus (hard)': [['medium mixed potion', 20, [1,1]],['medium mp potion', 70, [1,1]],['shellfish', 100, [2,7]],['clam shell', 100, [3,5]],['magic dust', 100, [125,150]],['crab shell', 100, [3,5]], ['shiny pearl', 100, [1,4]],['minae', 100, [80,105]],['magic tentacle', 100, [1,4]], ['tentacle chestplate', 7, [1,1]], ['coral sword', 6, [1,1]], ['inky ring', 4, [1,1]]],
+    'king polypus (extreme)': [['large mp potion', 20, [1,1]],['medium mixed potion', 50, [1,1]],['shellfish', 100, [2,7]],['clam shell', 100, [3,5]],['magic dust', 100, [125,150]],['crab shell', 100, [3,5]], ['shiny pearl', 100, [1,4]],['minae', 100, [100,135]],['magic tentacle', 100, [1,6]], ['tentacle chestplate', 13, [1,1]], ['coral sword', 10, [1,1]], ['inky ring', 8, [1,1]]],
     'tentacle': [['magic dust', 50, [5,15]]],
     'visius ent': [['medium hp potion', 35, [1,1]],['small hp potion', 60, [1,2]],['silva salad', 40, [1,3]],['stick', 60, [10,30]],['magic dust', 100, [67,80]],['wisp essence', 100, [5,15]], ['leaf', 100, [10,25]],['minae', 100, [75,95]],['magic branch', 80, [1,2]], ['grass blade', 2, [1,1]], ['trunk vambrace', 2, [1,1]], ['dark rose wand', 1, [1,1]]],
     'visius ent (hard)': [['medium mixed potion', 50, [1,1]],['medium hp potion', 60, [1,1]],['silva salad', 60, [1,3]],['stick', 60, [10,50]],['magic dust', 100, [140,160]],['wisp essence', 100, [5,25]], ['leaf', 100, [10,35]],['minae', 100, [130,160]],['magic branch', 100, [2,3]], ['grass blade', 3, [1,1]], ['trunk vambrace', 4, [1,1]], ['dark rose wand', 2, [1,1]], ['emerald lute', 3, [1,1]], ['thornbark robes', 2, [1,1]]],

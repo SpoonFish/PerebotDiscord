@@ -556,7 +556,10 @@ def e_attack(acc, enemy, i, party):
         if dmg > 0:
             dmg, _ = formulas.form_dmg(dmg)
 
+            boost = getter.get_total_boost(victim)
             df = victim.total_stats['DEF']
+            
+            df = victim.total_stats['DEF']*(1+boost['DEF']/100)
             if spell.name == 'penetrating pearl':
                 df *= 0.2
 
@@ -669,7 +672,8 @@ def e_attack(acc, enemy, i, party):
     else:
         dmg, crit = formulas.form_dmg(enemy.dmg, enemy.crit, enemy.crit_dmg)
 
-        df = victim.total_stats['DEF']
+        boost = getter.get_total_boost(victim)
+        df = victim.total_stats['DEF']*(1+boost['DEF']/100)
 
         for cond in acc.battle.p_cond:
             if cond[0].name == 'broken armour':
@@ -715,7 +719,7 @@ def reward(acc, monster, party):
         if i.name in ['alpha wolf', 'king polypus', 'visius ent']:
             mult = 1
     
-    
+    boost = getter.get_total_boost(acc)
     lvl_diff = abs(acc.level - consts.mob_stats[monster]['LVL'])
     xp_mult = 1
     if lvl_diff > 2:
@@ -726,13 +730,14 @@ def reward(acc, monster, party):
             xp_mult = max(0.1, 1-(lvl_diff -4)/5)
     if acc.ring != '' and acc.ring.name == 'aqua ring':
         xp_mult *= 1.1+(acc.ring.upgrade_lvl-1)*0.005
-    xp = round(consts.mob_stats[monster]['XP']*mult*xp_mult)
+    xp = round(consts.mob_stats[monster]['XP']*mult*xp_mult*(1+boost["XP"]/100))
     acc.xp += xp
     for loot in consts.mob_loot[monster]:
         rnd = random.randint(1, 100)
         chance = loot[1]
         if acc.ring != '' and acc.ring.name == 'ruby ring':
-            chance *= 1.2+(acc.ring.upgrade_lvl-1)*0.01
+            chance = chance*(1.2+(acc.ring.upgrade_lvl-1)*0.01)
+            chance = chance*(1+boost["LOOT"]/100)
         if rnd <= chance:
             item = loot[0]
             aurum = 0
@@ -861,10 +866,12 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
         else: await message.respond(f'That enemy is dead or doesn\'t exist. Check `{pre}actions`', ephemeral=hide)
         return
 
+    boost = getter.get_total_boost(acc)
     if not spell:
 
-        dmg, crit = formulas.form_dmg(acc.total_stats['DMG'],acc.total_stats['%.CRIT'],acc.total_stats['%.CRIT.DMG'])
+        dmg, crit = formulas.form_dmg(acc.total_stats['DMG'],acc.total_stats['%.CRIT']+boost["%.CRIT"],acc.total_stats['%.CRIT.DMG']+boost["%.CRIT.DMG"])
         
+        dmg = round(dmg *(1+boost["DMG"]/100))
         
         df = acc.battle.enemy[e].df
         cond = acc.battle.e_cond[e]
@@ -901,6 +908,7 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
                 if random.randint(1,100) <= (30+((cond[0].potence-1)*10)):
                     dmg = 0
                     crit = '. You missed!'
+
         print(acc.battle.e_hp[e])
         print(dmg)
         if flee == 0:acc.battle.e_hp[e] = max(0, acc.battle.e_hp[e] - dmg)
@@ -922,10 +930,11 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
         for pspell in acc.spells:
             if pspell.name == spell:
                 spell = pspell
-        dmg = formulas.form_spell_dmg(acc.total_stats['DMG']*(spell.dmg/100),acc.total_stats['%.SPELL.DMG'])
+        dmg = formulas.form_spell_dmg(acc.total_stats['DMG']*(spell.dmg/100),acc.total_stats['%.SPELL.DMG']+boost["%.SPELL.DMG"])
+        dmg = round(dmg *(1+boost["DMG"]/100))
         crit = None
 
-        acc.mp -= spell.mp_cost
+        acc.mp -= round(spell.mp_cost*(1-boost["%.SPELL.COST"]))
 
         if spell.target != 'multi':
             df = acc.battle.enemy[e].df
@@ -963,8 +972,8 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
             print(dmg)
             special = ''
             if spell.name == 'life drain':
-                acc.hp = min(acc.total_stats['HP'], acc.hp+dmg//2)
-                special = f' {you} stole {dmg//2} hp!'
+                acc.hp = min(acc.total_stats['HP'], round(acc.hp+min(acc.level*1.3,dmg//2)*(1+boost["HEAL"]/100)))
+                special = f' {you} stole {round(min(acc.level*1.3,dmg//2)*(1+boost["HEAL"]/100))} hp!'
             acc.battle.e_hp[e] = max(0, acc.battle.e_hp[e] - dmg)
             if crit != f'. {you} missed!':
                 rnd = random.randint(1, 100)
@@ -1119,11 +1128,11 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
                 dmg = round(min(dmg, math.ceil(acc.level/1.2)))
                 body += f'**Poison** deals **{dmg}** damage\n'
             elif cond[0].name == 'regeneration':
-                hpheal = acc.total_stats["HP"]*(0.03+((cond[0].potence-1)*0.01))
+                hpheal = acc.total_stats["HP"]*(0.03+((cond[0].potence-1)*0.01))*(1+boost["HEAL"]/100)
                 hpheal = round(hpheal)
                 body += f'**Regeneration** heals **{hpheal}** HP\n'
             elif cond[0].name == 'attunement':
-                mpheal = acc.total_stats["MP"]*(0.03+((cond[0].potence-1)*0.01))
+                mpheal = acc.total_stats["MP"]*(0.03+((cond[0].potence-1)*0.01))*(1+boost["HEAL"]/100)
                 mpheal = round(mpheal)
                 body += f'**Attunement** heals **{mpheal}** MP\n'
             elif cond[0].name == 'burning':

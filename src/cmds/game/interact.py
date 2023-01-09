@@ -5,6 +5,7 @@ import src.funcs.formulas as formulas
 import src.funcs.checks as checks
 import random
 import discord
+import datetime
 import src.party_manager as party_manager
 import src.counters as counters
 import math
@@ -18,12 +19,14 @@ async def travel(message, area, acc, pre, hide, button=0, channel=0):
                 
     if counters.SAVES % 20 <2 and channel != 0:
         try:
-            file = discord.File('accounts.csv')
+            file = discord.File('assets/accounts.csv')
             await channel.send('------------------------\naccounts:', file=file)
-            file = discord.File('parties.csv')
+            file = discord.File('assets/parties.csv')
             await channel.send('parties:', file=file)
-            file = discord.File('servers.csv')
+            file = discord.File('assets/servers.csv')
             await channel.send('servers:', file=file)
+            file = discord.File('assets/pvp.csv')
+            await channel.send('pvp:', file=file)
         except: pass
     if acc.battle.active:
         if button:
@@ -250,7 +253,38 @@ async def use(message, item, amount, acc, pre, hide):
         acc.battle.potion_cd = 3
     body = ''
     unlimited_uses = ['mystic conch', 'sleeping bag', 'campfire']
-    if getter.get_type(item) == 'consumable':
+    if getter.get_type(item) == 'elixir':
+        try:
+            if len(acc.vars["boost"]) >= 8:
+                await message.respond(f'You already have 4 boosts active. (max is 4)', ephemeral=hide)
+                return
+        except:
+            acc.vars["boost"] = []
+
+        for i in acc.inventory:
+            if i.name == item:
+                if item not in unlimited_uses:
+                    if i.amount == 1:
+                        acc.inventory.remove(i)
+                        body += f'You used **{item}**. Check `/boosts` for your total boosts. You have none left\n'
+                    else:
+                        i.amount -= amount
+                        body += f'You used **{item}**. Check `/boosts` for your total boosts. You have {i.amount} left\n'
+                else:
+                    body += f'You used **{item}**\n'
+
+        time = consts.boosts[item]["time"]
+        end_time = datetime.datetime.now()
+        end_time += datetime.timedelta(minutes=time)
+        str_end_time = f"{end_time.year}/{end_time.month}/{end_time.day}/{end_time.hour}/{end_time.minute}/{end_time.second}"
+        boost =[item, str_end_time]
+        
+        await message.respond(body, ephemeral=hide)
+        acc.vars["boost"] += boost
+        account.write_file()
+        return
+
+    elif getter.get_type(item) == 'consumable':
         for i in acc.inventory:
             if i.name == item:
                 if item not in unlimited_uses:
