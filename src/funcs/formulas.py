@@ -65,6 +65,8 @@ def get_stats(acc, calc_boost = True):
     
     if calc_boost:
         boost = getter.get_total_boost(acc)
+        if boost['MAX HP'] > 0:
+            pass
         stats['HP'] = round(stats['HP']*(1+boost["MAX HP"]/100))
         stats['MP'] = round(stats['MP']*(1+boost["MAX MP"]/100))
     else:

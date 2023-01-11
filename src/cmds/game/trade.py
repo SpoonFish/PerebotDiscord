@@ -105,6 +105,49 @@ Use {pre}whatis <item> to find info on an item
 You have {acc.aurum} aurum
 ```'''
     await message.respond(body, ephemeral=hide)
+
+async def witch_shop(message, acc, pre,hide):
+    body = f'''```
+   --/\/ THE BREWERY /\/--
+
+Shiny elixir:
+ - 350 aurum
+ - 10 pearl
+ - 35 magic dust
+
+Lucky elixir:
+ - 350 aurum
+ - 5 magic fang
+ - 35 magic dust
+
+Red elixir:
+ - 150 aurum
+ - 20 blood
+ - 15 magic dust
+
+Gray elixir:
+ - 110 aurum
+ - 12 scale
+ - 10 magic dust
+
+Green elixir:
+ - 90 aurum
+ - 20 leaf
+ - 10 magic dust
+
+Blue elixir:
+ - 90 aurum
+ - 10 blueberry
+ - 10 magic dust
+
+
+Use {pre}buy <item> <amount> to buy an item
+Use {pre}sell <item> <amount> to sell an item
+Use {pre}whatis <item> to find info on an item
+
+You have {acc.aurum} aurum
+```'''
+    await message.respond(body, ephemeral=hide)
     
 async def buy(message, item, amount, acc, pre, hide):
     
@@ -130,38 +173,56 @@ async def buy(message, item, amount, acc, pre, hide):
         if not item in consts.krakow_shop_items:
             await message.respond(f'You cannot buy **{item}** at this shop', ephemeral=hide)
             return
+    elif acc.area == 'Witch Hut':
+        if not item in consts.witch_shop_items:
+            await message.respond(f'You cannot buy **{item}** at this shop', ephemeral=hide)
+            return
     if item in consts.items.keys():
         if amount > 1:
             if not checks.check_stackable(item):
                 await message.respond(f'You cannot buy more than 1 {item} at a time', ephemeral=hide)
                 return
         i = consts.items[item]
-        price = i['buy'][0]
-        itemcost = i['buy'][1]
-        if itemcost == 'aurum':
-            if acc.aurum >= price * amount:
-                acc.aurum -= price * amount
-                account.give_item(item, amount, acc)
-                account.write_file()
-                await message.respond(f'You bought **{amount} {item}** for **{price * amount}** aurum', ephemeral=hide)
+        canbuy = True
+        pending_removes = []
+        aurum_remove = 0
+        body = ''
+        for c in i['buy']:
+            price = c[0]
+            itemcost = c[1]
+            if itemcost == 'aurum':
+                if acc.aurum >= price * amount:
+                    aurum_remove = price * amount
+                else:
+                    body += f'You do not have enough aurum to buy {amount} {item}. You need **{price * amount}** aurum You have **{acc.aurum}** aurum\n'
+                    canbuy = False
             else:
-                await message.respond(f'You do not have enough aurum to buy {amount} {item}. You need **{price * amount}** aurum. You have **{acc.aurum}** aurum', ephemeral=hide)
-        else:
-            has = 0
-            j = 0
-            for i in acc.inventory:
-                if i.name == itemcost:
-                    has = 1
-                    break
-                j+=1
-            if not has or acc.inventory[j].amount < price * amount:
-                await message.respond(f'You do not have enough {itemcost} to buy {amount} {item}. You need **{price * amount}** {itemcost} You have **{acc.inventory[j].amount}** {itemcost}', ephemeral=hide)
-                return
-            acc.inventory[j].amount -= price * amount
+                has = 0
+                j = 0
+                for i in acc.inventory:
+                    if i.name == itemcost:
+                        has = 1
+                        break
+                    j+=1
+                if not has or acc.inventory[j].amount < price * amount:
+                    canbuy = False
+                    body += f'You do not have enough {itemcost} to buy {amount} {item}. You need **{price * amount}** {itemcost} You have **{acc.inventory[j].amount}** {itemcost}\n'
+                    
+                pending_removes.append([j, price * amount])
+                
+
+        if canbuy:
+            for j in pending_removes:
+                acc.inventory[j[0]].amount -= j[1]
+            for j,i in enumerate(acc.inventory):
+                if i.amount < 1:
+                    acc.inventory.pop(j)
+            acc.aurum -= aurum_remove
             account.give_item(item, amount, acc)
             account.write_file()
-            await message.respond(f'You bought **{amount} {item}** for **{price * amount}** {itemcost}', ephemeral=hide)
-           
+            await message.respond(body, ephemeral=hide)
+        else:
+            await message.respond(body, ephemeral = hide)
     else:
         await message.respond(f'Item does not exist: **{item}**', ephemeral=hide)
 
@@ -203,8 +264,8 @@ async def sell(message, item, amount, acc, pre, hide):
     if i == None:
         await message.respond(f'You do not have any {item}', ephemeral=hide)
         return
-    price = consts.items[item]['sell'][0]
-    itemsell = consts.items[item]['sell'][1]
+    price = consts.items[item]['sell'][0][0]
+    itemsell = consts.items[item]['sell'][0][1]
     if amount < 1:
         await message.respond('Amount must be greater than 0', ephemeral=hide)
         return
@@ -241,7 +302,7 @@ async def sell(message, item, amount, acc, pre, hide):
         j += 1
     if itemsell == 'aurum':
         if getter.get_inv(acc, 'midas ring') != None:
-                price = round(consts.items[item]['sell'][0]* 1.05+(getter.get_inv(acc, 'midas ring').upgrade_lvl-1)*0.06)
+                price = round(consts.items[item]['sell'][0][0]* 1.05+(getter.get_inv(acc, 'midas ring').upgrade_lvl-1)*0.06)
         acc.aurum += price * amount
     else:
         account.give_item(itemsell, price*amount, acc)

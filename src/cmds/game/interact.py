@@ -49,7 +49,7 @@ async def travel(message, area, acc, pre, hide, button=0, channel=0):
                         await message.respond(body, ephemeral=True, view=Travel())
                     return
         else:
-            area = area.title().replace('1', 'I').replace('2', 'II').replace('3', 'III')
+            if not button: area = area.title().replace('3', 'III').replace('2', 'II').replace('1', 'I').replace('i','I').replace('Krakow\'S','Krakow\'s')
             if area == 'Town I':
                 area = 'Town 1'
             if area == 'Boat I':

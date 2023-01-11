@@ -405,7 +405,8 @@ def initialize_file(file):
                     for j in lines[15].split(';'):
                         components = j.split('-')
                         varname = components[0]
-                        varvalue = components[1].split(',')
+                        try:varvalue = components[1].split(',')
+                        except: continue
                         for i, val in enumerate(varvalue):
                             if val.isdigit():
                                 varvalue[i] = int(val)
@@ -451,6 +452,9 @@ def write_file(acc_list = acc_list, file = 'assets/accounts.csv'):
                         if now > end_time:
                             account.vars["boost"].pop(i)
                             account.vars["boost"].pop(i-1)
+
+                        if len(account.vars["boost"]) == 0:
+                            account.vars.popitem("boost")
 
 
 

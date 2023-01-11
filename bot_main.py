@@ -145,14 +145,15 @@ async def travel(ctx, area: discord.Option(str)=None):
     guild_chan = client.get_guild(934960266775502868).get_channel(1054119036637692024)
     await interact_cmds.travel(ctx, area, acc, pre, hide, 0, guild_chan)
 @client.slash_command(name="vote", description='Shows the vote links so you can get rewards for free and support the bot :)')
-async def map(ctx):
+async def vote(ctx):
     if not check.account_exists(ctx.author): await ctx.respond('You need to create an account first! Use `/start` to create an account', ephemeral=True); return
     acc = account.get_account(ctx.author)
 
+    hide = configs.get_config(ctx.guild.name, 'ephemeral')
     await ctx.respond(f"**{acc.name}**\n*You will recieve rewards for voting based on your account level and how many times you have voted*\n\nUse `/vote-rewards` to see possible vote rewards and milestones\nUse `/hero-shop` in town to spend your hero coins\n\nYou can vote the following links:", ephemeral = True, view=VoteView())
-
+    
 @client.slash_command(name="vote-rewards", description='Shows possible rewards you can get when voting')
-async def map(ctx):
+async def voterewards(ctx):
     if not is_init(ctx): 
         await ctx.respond(f'There are no configuration settings in this server ({ctx.author.guild.name}) yet. An admin must use /initiate to start using/configuring the bot') ;return
     
@@ -181,17 +182,17 @@ async def map(ctx):
 
 **1st Vote** - +15 apple, +5 small hp potion
 
-**5th Vote** - +5 apple pie, +5 blueberry pie
+**5th Vote** - +1 red elixir, +5 apple pie
 
 **10th Vote** - +50 magic dust, +5 potato salad, +1 hero coin
 
-**20th Vote** - +150 magic dust, +1500 aurum, +3 hero coin
+**20th Vote** - +1 lucky elixir, +1500 aurum, +2 hero coin
 
-**30th Vote** - +250 magic dust, +2000 aurum, +1500 minae, +5 hero coin
+**30th Vote** - +1 shiny elixir, +1 red elixir, +2000 aurum, +1500 minae, +3 hero coin
 
-**40th Vote** - +400 magic dust, +2500 minae, +5 hero coin, +10 silva salad
+**40th Vote** - +1 lucky elixir, + 2 shiny elixir, +2500 minae, +4 hero coin, +10 silva salad
 
-**50th Vote** - +500 magic dust, +5000 minae, +5 hero coin, +20 honey apples
+**50th Vote** - +3 lucky elixir, + 3 shiny elixir, +500 magic dust, +5000 minae, +5 hero coin, +20 honey apples
 
 You have voted {votes} times
 ''', ephemeral = hide)
@@ -205,9 +206,6 @@ async def map(ctx):
     if not check.account_exists(ctx.author): await ctx.respond('You need to create an account first! Use `/start` to create an account', ephemeral=True); return
     hide = configs.get_config(ctx.guild.name, 'ephemeral')
     acc = account.get_account(ctx.author)
-
-    await info_cmds.boosts(ctx, acc, hide)
-    return
     await info_cmds.map(ctx, acc, pre, hide)
 @client.slash_command(name="actions", description='Shows the current main actions you can do')
 async def actions(ctx):
@@ -257,6 +255,8 @@ async def shop(ctx):
         await trade_cmds.shop(ctx, acc, pre, hide)
     elif acc.area.startswith('Krakow'):
         await trade_cmds.krakow_shop(ctx, acc, pre, hide)
+    elif acc.area.startswith('Witch'):
+        await trade_cmds.witch_shop(ctx, acc, pre, hide)
     else:
         await ctx.respond(f'You can only use this command in the town.', ephemeral=hide)
 
@@ -269,7 +269,7 @@ async def buy(ctx, item: discord.Option(str), amount: discord.Option(int) = 1):
     hide = configs.get_config(ctx.guild.name, 'ephemeral')
     acc = account.get_account(ctx.author)
 
-    if acc.area.startswith('Town') or acc.area.startswith('Krak'):
+    if acc.area.startswith('Town') or acc.area.startswith('Krak') or acc.area.startswith('Witch'):
         await trade_cmds.buy(ctx, item, amount, acc, pre, hide)
     else:
         await ctx.respond(f'You can only use this command in the town.', ephemeral=hide)
@@ -283,7 +283,7 @@ async def sell(ctx, item: discord.Option(str), amount: discord.Option(int) = 1):
     hide = configs.get_config(ctx.guild.name, 'ephemeral')
     acc = account.get_account(ctx.author)
 
-    if acc.area.startswith('Town') or acc.area.startswith('Krak'):
+    if acc.area.startswith('Town') or acc.area.startswith('Krak') or acc.area.startswith('Witch'):
         await trade_cmds.sell(ctx, item, amount, acc, pre, hide)
     else:
         await ctx.respond(f'You can only use this command in the town.', ephemeral=hide)
@@ -871,7 +871,9 @@ async def prepare_restart(ctx):
         await channel.send('servers:', file=file)
         file = discord.File('assets/pvp.csv')
         await channel.send('pvp:', file=file)
-        await ctx.respond(f'```SUCCESS```')
+        #chan = client.get_channel(1062827878510755901)
+        #await chan.send("Fine pong then whatevr its the saem thing -_-")
+        await ctx.respond(f'```SUCCESS```', ephemeral = True)
     else:
         await ctx.respond(f'```knowledge is the greatest pain of all...```', ephemeral=True)
 
@@ -988,19 +990,20 @@ async def on_message(message):
                     else:
                         herocoins = 5
                     '''
-        **1st Vote** - +15 apple, +5 small hp potion
+        
+**1st Vote** - +15 apple, +5 small hp potion
 
-        **5th Vote** - +5 apple pie, +5 blueberry pie
+**5th Vote** - +1 red elixir, +5 apple pie
 
-        **10th Vote** - +50 magic dust, +5 potato salad, +1 hero coin
+**10th Vote** - +50 magic dust, +5 potato salad, +1 hero coin
 
-        **20th Vote** - +150 magic dust, +1500 aurum, +3 hero coin
+**20th Vote** - +1 lucky elixir, +1500 aurum, +2 hero coin
 
-        **30th Vote** - +250 magic dust, +2000 aurum, +1500 minae, +5 hero coin
+**30th Vote** - +1 shiny elixir, +1 red elixir, +2000 aurum, +1500 minae, +3 hero coin
 
-        **40th Vote** - +400 magic dust, +2500 minae, +5 hero coin, +10 silva salad
+**40th Vote** - +1 lucky elixir, + 2 shiny elixir, +2500 minae, +4 hero coin, +10 silva salad
 
-        **50th Vote** - +500 magic dust, +5000 minae, +5 hero coin, +20 honey apples
+**50th Vote** - +3 lucky elixir, + 3 shiny elixir, +500 magic dust, +5000 minae, +5 hero coin, +20 honey apples
                     '''
                     try:
                         acc.vars['votes'][0] += 1
@@ -1050,10 +1053,10 @@ Your **rewards** as a LVL {acc.level} adventurer:
                         '''
                     elif votes == 5:
                         account.give_item('apple pie', 5, acc)
-                        account.give_item('blueberry pie', 5, acc)
+                        account.give_item('red elixir', 1, acc)
                         string += '''**5th Vote!**
  ━━ Apple Pie: 5
- ━━ Blueberry Pie: 5                    
+ ━━ Red Elixir: 1                    
                         '''
                     elif votes == 10:
                         account.give_item('magic dust', 50, acc)
@@ -1063,27 +1066,33 @@ Your **rewards** as a LVL {acc.level} adventurer:
  ━━ Potato Salad: 5                    
                         '''
                     elif votes == 20:
-                        account.give_item('magic dust', 150, acc)
+                        account.give_item('lucky elixir', 1, acc)
                         string += '''**20th Vote!**
- ━━ Magic Dust: 150             
+ ━━ Lucky Elixir: 1             
                         '''
                     elif votes == 30:
-                        account.give_item('magic dust', 250, acc)
+                        account.give_item('shiny elixir', 1, acc)
+                        account.give_item('lucky elixir', 1, acc)
                         string += '''**30th Vote!**
- ━━ Magic Dust: 250             
+ ━━ Lucky Elixir: 1
+ ━━ Shiny Elixir: 1             
                         '''
                     elif votes == 40:
-                        account.give_item('magic dust', 400, acc)
+                        account.give_item('lucky elixir', 1, acc)
+                        account.give_item('shiny elixir', 2, acc)
                         account.give_item('silva salad', 10, acc)
                         string += '''**40th Vote!**
- ━━ Magic Dust: 400
+ ━━ Lucky Elixir: 1
+ ━━ Shiny Elixir: 2 
  ━━ Silva Salad: 10           
                         '''
                     elif votes == 50:
-                        account.give_item('magic dust', 500, acc)
+                        account.give_item('lucky elixir', 3, acc)
+                        account.give_item('shiny elixir', 3, acc)
                         account.give_item('honey apples', 20, acc)
                         string += '''**50th Vote!**
- ━━ Magic Dust: 500
+ ━━ Lucky Elixir: 3
+ ━━ Shiny Elixir: 3 
  ━━ Honey Apples: 20         
                         '''
 

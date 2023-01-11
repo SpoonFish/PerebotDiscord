@@ -1,6 +1,7 @@
 import src.consts as consts
 import src.counters as counters
 import src.account as account
+import datetime
 import src.funcs.formulas as formulas
 import src.funcs.checks as checks
 import random
@@ -120,6 +121,8 @@ Use `{pre}smith-...` - to visit the blacksmith
 Use `{pre}rest` - to restore HP an MP for 25 aurum
 Use `{pre}library-...` - to see available spells''' 
                 embed.add_field(name = "Town Actions:", value = body, inline= False)
+            elif acc.area == 'Witch Hut':
+                body += f'''\nUse `{pre}shop` - to see the Witch's shop'''
             elif acc.area == 'Krakow\'s Cave':
                 body += f'''\nUse `{pre}shop` - to see Krakow\'s shop
 Use `{pre}fight` - to duel with Krakow'''
@@ -207,6 +210,26 @@ async def boosts(message, acc, hide):
         if boost == 'any': continue
         if boost == "%.SPELL.COST":body += f'**{boost} ---** -{boosts[boost]}%\n'
         else:body += f'**{boost} ---** +{boosts[boost]}%\n'
+    try:
+        body += '\n\n__Boost status:__\n'
+        boosts = acc.vars["boost"]
+        for i in range(len(boosts)):
+            if i % 2 == 0:
+                body += f'**{boosts[i]}** --- Expires in: '
+            else:
+                date = boosts[i]
+                times = [int(i) for i in date.split('/')]
+                end_time = datetime.datetime(times[0],times[1],times[2],times[3],times[4],times[5])
+                expires = end_time - datetime.datetime.now()
+                mins = round(expires.total_seconds()//60)
+                seconds = str(expires.seconds%60)
+                if len(seconds) == 1:
+                    seconds = '0' + seconds
+                body += f'**{mins}:{seconds}**\n'
+
+    except:
+        return
+
     await message.respond(body, ephemeral=hide)
 
 async def area(message, acc, pre, hide):
