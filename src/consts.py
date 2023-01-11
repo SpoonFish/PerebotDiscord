@@ -91,7 +91,7 @@ witch_shop_items = ['red elixir','blue elixir','green elixir','gray elixir','shi
 
 items = {
     #max 4 elixirs at 1 time
-    'shiny elixir': {'desc': '+25% xp, 60 mins', 'buy': [[350, 'aurum'], [10, 'pearl'], [35, 'magic dust']], 'sell': [[400, 'aurum']]},
+    'shiny elixir': {'desc': '+25% xp, 60 mins', 'buy': [[350, 'aurum'], [10, 'shiny pearl'], [35, 'magic dust']], 'sell': [[400, 'aurum']]},
     'lucky elixir': {'desc': '+25% loot chance, 60 mins', 'buy': [[350, 'aurum'],[5, 'magic fang'], [35, 'magic dust']], 'sell': [[400, 'aurum']]},
     'knight elixir': {'desc': '+10% CRIT.DMG, +5% CRIT, 30 mins', 'buy': [[4, 'hero coin']], 'sell': [[400, 'aurum']]},
     'mage elixir': {'desc': '+10% SPELL.DMG, -30% SPELL MP COST, 30 mins', 'buy': [[4, 'hero coin']], 'sell': [[400, 'aurum']]},

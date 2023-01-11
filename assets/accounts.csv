@@ -171,7 +171,7 @@
 783375538139693159:
  - Lvl: 15
  - Xp: 636
- - Inv: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL,feather-115,stick-58,egg-124,minae-2256,leather helmet-1-+5.0 DEF-+1.0 LVL,leather gloves-1-+2.0 HP-+5.0 DMG-+1.0 LVL,leather armour-1-+10.0 DEF-+1.0 LVL,wooden shield-1-+10.0 DEF-+1.0 LVL,leaf-65,spud-25,wheat-31,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,scale-33,snake fang-62,truffle spores-30,fungus-31,blood-41,bat wing-16,wolf meat-14,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,apple-127,badger fur-4,blueberry-2,scaled shield-1-+8.0 DEF-+5.0 HP-+5.0 LVL,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,wolf fur-14,wolf paw-4,fungus armour-1-+10.0 DEF-+2.0 DMG-+5.0 LVL,sleeping bag-5,small hp potion-58,hero coin-22,magic dust-157,small mp potion-47,small mixed potion-46,large mp potion-49,large hp potion-48,apple pie-5,blueberry pie-5,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,howling horn-1-+40.0 DMG-+7.8 %.CRIT-+22.1 %.SPELL.DMG-+10.4 HP-+15.0 LVL,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,red elixir-4,potato salad-5,
+ - Inv: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL,feather-115,stick-58,egg-124,minae-3108,leather helmet-1-+5.0 DEF-+1.0 LVL,leather gloves-1-+2.0 HP-+5.0 DMG-+1.0 LVL,leather armour-1-+10.0 DEF-+1.0 LVL,wooden shield-1-+10.0 DEF-+1.0 LVL,leaf-65,spud-25,wheat-31,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,scale-33,snake fang-62,truffle spores-30,fungus-31,blood-41,bat wing-16,wolf meat-14,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,apple-127,badger fur-4,blueberry-2,scaled shield-1-+8.0 DEF-+5.0 HP-+5.0 LVL,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,wolf fur-14,wolf paw-4,fungus armour-1-+10.0 DEF-+2.0 DMG-+5.0 LVL,sleeping bag-5,small hp potion-58,hero coin-25,magic dust-157,small mp potion-47,small mixed potion-46,large mp potion-49,large hp potion-48,apple pie-5,blueberry pie-5,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,howling horn-1-+40.0 DMG-+7.8 %.CRIT-+22.1 %.SPELL.DMG-+10.4 HP-+15.0 LVL,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,red elixir-4,potato salad-5,
  - Weapon: blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL
  - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
  - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
@@ -181,10 +181,10 @@
  - Mp: 104
  - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
  - Area: Wolf Den II
- - Aurum: 4083
+ - Aurum: 5426
  - Spells: fireball-4,magic shield-1,super punch-4,poison cloud-1,
  - EqSpells: 1,fireball,poison cloud
- - Vars: votes-11,0
+ - Vars: votes-13,0
 807959741132832788:
  - Lvl: 27
  - Xp: 5648
