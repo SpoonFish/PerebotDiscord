@@ -442,7 +442,10 @@ async def whatis(message, item, acc, pre, hide):
         body = f'--ITEM--\n'
         body += f'Info for **{item}**:\n'
         i = consts.items[item]['desc']
-        b = f'{consts.items[item]["buy"][0]} {consts.items[item]["buy"][1]}' 
+        buys = ''
+        for buy in consts.items[item]["buy"]:
+            buys += f'{buy[0]} {buy[1]},'
+        b = buys[:-1]
         s = f'{consts.items[item]["sell"][0]} {consts.items[item]["sell"][1]}' 
         body += f'`{i}`\n'
         if getter.get_inv(acc, item) == None:
