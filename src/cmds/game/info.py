@@ -446,7 +446,7 @@ async def whatis(message, item, acc, pre, hide):
         for buy in consts.items[item]["buy"]:
             buys += f'{buy[0]} {buy[1]},'
         b = buys[:-1]
-        s = f'{consts.items[item]["sell"][0]} {consts.items[item]["sell"][1]}' 
+        s = f'{consts.items[item]["sell"][0][0]} {consts.items[item]["sell"][0][1]}' 
         body += f'`{i}`\n'
         if getter.get_inv(acc, item) == None:
             amount = 'no'
