@@ -809,8 +809,16 @@ async def boosts(ctx):
     if not check.account_exists(ctx.author): await ctx.respond('You need to create an account first! Use `/start` to create an account', ephemeral=True); return
     hide = configs.get_config(ctx.guild.name, 'ephemeral')
     acc = account.get_account(ctx.author)
+@client.slash_command(name="quests", description='See your current quests')
+async def boosts(ctx):
+    if not is_init(ctx): 
+        await ctx.respond(f'There are no configuration settings in this server ({ctx.author.guild.name}) yet. An admin must use /initiate to start using/configuring the bot') ;return
+    if not check.channel(ctx.channel): await ctx.respond('You cannot use the bot in this channel!', ephemeral=True); return
+    if not check.account_exists(ctx.author): await ctx.respond('You need to create an account first! Use `/start` to create an account', ephemeral=True); return
+    hide = configs.get_config(ctx.guild.name, 'ephemeral')
+    acc = account.get_account(ctx.author)
 
-    await info_cmds.boosts(ctx, acc, hide)
+    await info_cmds.quests(ctx, acc, hide)
 @client.slash_command(name="party-kick", description='Kick a player from your party')
 async def party_kick(ctx, user: discord.User):
     if not is_init(ctx): 

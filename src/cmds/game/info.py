@@ -200,6 +200,35 @@ Use `{pre}flee` - to escape the battle (40% chance to work, 20% if fighting a bo
 async def map(message, acc, pre, hide):
     body = f'You are in **{acc.area}**\nPlayer Head = Current location'
     await message.respond(body, ephemeral=hide, file=image_generator.generate_map(acc.area))
+async def quests(message, acc, hide):
+    body = "**__Daily Quests:__**"
+    d = [acc.vars["daily1"],acc.vars["daily2"],acc.vars["daily3"]]
+
+    for daily in d:
+        if daily[0] in ['monster', 'enchanted monster']:
+            body += f'\nkill {daily[3]} {daily[0]}s - **{daily[2]}/{daily[3]}**'
+        elif daily[0] in 'boss':
+            body += f'\nkill {daily[3]} {daily[1]} - **{daily[2]}/{daily[3]}**'
+        elif daily[0] in 'cook':
+            body += f'\ncook {daily[3]} {daily[1]} - **{daily[2]}/{daily[3]}**'
+        elif daily[0] in 'xp':
+            body += f'\nget {daily[3]} xp - **{daily[2]}/{daily[3]}**'
+        elif daily[0] in 'elixir':
+            body += f'\nmake an elixir - **{daily[2]}/{daily[3]}**'
+        elif daily[0] in 'travel':
+            body += f'\ntravel {daily[3]} times - **{daily[2]}/{daily[3]}**'
+        elif daily[0] in 'spells':
+            body += f'\ncast {daily[3]} spells - **{daily[2]}/{daily[3]}**'
+        elif daily[0] in 'crits':
+            body += f'\nland {daily[3]} critical hits - **{daily[2]}/{daily[3]}**'
+        elif daily[0] in 'vote':
+            body += f'\nvote for the bot today - **{daily[2]}/{daily[3]}**'
+
+    times = [int(i) for i in acc.vars["quest"][0].split('/')]
+    next_quest_time = datetime.datetime(times[0],times[1],times[2],times[3],times[4],times[5])
+    time = next_quest_time - datetime.datetime.now()
+    body += f'\n\n*There is {math.floor(time.total_seconds()/3600)}h, {math.floor(time.total_seconds()/60%60)}m before daily quests reset*'
+    await message.respond(body, ephemeral=hide)
 async def boosts(message, acc, hide):
     boosts = getter.get_total_boost(acc)
     if not boosts['any']:

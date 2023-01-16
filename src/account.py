@@ -1,6 +1,7 @@
 import src.funcs.formulas as formulas
 import src.consts as consts
 import src.counters as counters
+import src.funcs.getter as getter
 import random
 import datetime
 import src.funcs.checks as checks
@@ -224,7 +225,10 @@ def create_account(user):
     account.area = 'Apple Orchard'
     account.aurum = 100
     account.spells = []
-    account.vars = {}
+    quest_time = datetime.datetime.now() #also can be used as account creation time
+    str_quest_time = f"{quest_time.year}/{quest_time.month}/{quest_time.day}/{quest_time.hour}/{quest_time.minute}/{quest_time.second}"
+    account.vars = {'quest': [str_quest_time, str_quest_time, str_quest_time], 'daily1': ["","",0,1], 'daily2': ["","",0,1], 'daily3': ["","",0,1]} #for the 3 timed quests (daily, weekly, bounty)
+    dailies = getter.get_dailies(account)
     account.equipped_spells = []
     account.total_stats = formulas.get_stats(account)
     account.spell_slots = formulas.get_spell_slots(account.level)
@@ -440,6 +444,7 @@ def write_file(acc_list = acc_list, file = 'assets/accounts.csv'):
     if 1:
         with open(file, 'w', encoding = "utf-8") as f:
             for account in acc_list:
+                getter.get_dailies(account)
                 try:
                     boosts = account.vars["boost"]
                     for i in range(7, 0, -2):
