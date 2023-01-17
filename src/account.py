@@ -4,6 +4,7 @@ import src.counters as counters
 import src.funcs.getter as getter
 import random
 import datetime
+import src.quest_manager as q_manager
 import src.funcs.checks as checks
 
 class Server():
@@ -228,7 +229,7 @@ def create_account(user):
     quest_time = datetime.datetime.now() #also can be used as account creation time
     str_quest_time = f"{quest_time.year}/{quest_time.month}/{quest_time.day}/{quest_time.hour}/{quest_time.minute}/{quest_time.second}"
     account.vars = {'quest': [str_quest_time, str_quest_time, str_quest_time], 'daily1': ["","",0,1], 'daily2': ["","",0,1], 'daily3': ["","",0,1]} #for the 3 timed quests (daily, weekly, bounty)
-    dailies = getter.get_dailies(account)
+    dailies = q_manager.get_dailies(account)
     account.equipped_spells = []
     account.total_stats = formulas.get_stats(account)
     account.spell_slots = formulas.get_spell_slots(account.level)

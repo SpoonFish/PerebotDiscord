@@ -6,6 +6,7 @@ import random
 import src.account as account
 import src.configs as configs
 import src.consts as consts
+import src.quest_manager as q_manager
 import src.cmds.game.chef as chef_cmds
 import src.cmds.game.info as info_cmds
 import src.cmds.game.trade as trade_cmds
@@ -1041,6 +1042,7 @@ async def on_message(message):
                     acc.aurum += aurum
                     account.give_item('hero coin', herocoins, acc)
                     account.give_item('minae', minae, acc)
+                    q_manager.check_quest(acc, 'vote', '', 1)
                     account.write_file(account.acc_list)
                     string = f'''**Thanks {user.name}!**
 Your vote is highly appreciated by all of the Perebot community in SpoonFish Studios :)

@@ -1,6 +1,7 @@
 import src.consts as consts
 import src.counters as counters
 import src.account as account
+import src.quest_manager as q_manager
 import src.funcs.formulas as formulas
 import src.funcs.checks as checks
 import random
@@ -367,7 +368,8 @@ async def fight(message, amount, acc, pre, hide, boss=0, button=0, difficulty = 
                 monsters.append('visius ent (extreme)')
                 monsters.append('enchanted silva wisp')
         else:
-            await message.respond(f'There is no boss in this area: ({acc.area})', ephemeral=hide)
+            if button:message.response.send_message(f'There is no boss in this area: ({acc.area})', ephemeral=hide)
+            else:await message.respond(f'There is no boss in this area: ({acc.area})', ephemeral=hide)
             return
 
     body = 'You will fight:\n'
@@ -671,7 +673,7 @@ def e_attack(acc, enemy, i, party):
         body = f'{i+1} > **{acc.battle.e_hp[i]}/{enemy.max_hp} - {enemy.name}** used spell: **{spell.name}**. {dmg_body}{effect_body}\n'
     else:
         dmg, crit = formulas.form_dmg(enemy.dmg, enemy.crit, enemy.crit_dmg)
-
+        
         boost = getter.get_total_boost(victim)
         df = victim.total_stats['DEF']*(1+boost['DEF']/100)
 
@@ -703,6 +705,7 @@ def e_attack(acc, enemy, i, party):
         victim.hp = max(0, victim.hp - dmg)
         if crit:
             crit = ' **Critical hit!**'
+            q_manager.check_quest(acc, 'crits', '', 1)
         else:
             crit = ''
 
@@ -716,9 +719,19 @@ def reward(acc, monster, party):
         if i.name != ' ':
             mult += 0.3
     for i in acc.battle.enemy:
-        if i.name in ['alpha wolf', 'king polypus', 'visius ent']:
+        fbosses = ['alpha wolf', "king polypus", "visius ent"]
+        bosses = []
+        for j in fbosses:
+            bosses.append(j)
+            bosses.append(f"{j} (hard)")
+            bosses.append(f"{j} (extreme)")
+        if i.name in bosses:
             mult = 1
-    
+    q_manager.check_quest(acc, 'monster', '', 1)
+    if monster.startswith('enchanted') and acc.battle.enemy[1].name != 'alpha wolf (extreme)':
+        q_manager.check_quest(acc, 'enchanted monster', '', 1)
+    q_manager.check_quest(acc, 'monster', monster, 1)
+    q_manager.check_quest(acc, 'boss', monster, 1)
     boost = getter.get_total_boost(acc)
     lvl_diff = abs(acc.level - consts.mob_stats[monster]['LVL'])
     xp_mult = 1
@@ -726,11 +739,12 @@ def reward(acc, monster, party):
         xp_mult = max(0.1, 1-(lvl_diff -2)/5)
     
     for i in acc.battle.enemy:
-        if i.name in ['alpha wolf', 'king polypus', 'visius ent']:
+        if i.name in bosses:
             xp_mult = max(0.1, 1-(lvl_diff -4)/5)
     if acc.ring != '' and acc.ring.name == 'aqua ring':
         xp_mult *= 1.1+(acc.ring.upgrade_lvl-1)*0.005
     xp = round(consts.mob_stats[monster]['XP']*mult*xp_mult*(1+boost["XP"]/100))
+    q_manager.check_quest(acc, 'xp', '', xp)
     acc.xp += xp
     for loot in consts.mob_loot[monster]:
         rnd = random.randint(1, 100)
@@ -887,6 +901,7 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
 
         if crit:
             crit = '. **Critical hit!**'
+            q_manager.check_quest(acc, 'crits', '', 1)
         else:
             crit = ''
 
@@ -936,6 +951,7 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
 
         acc.mp -= round(spell.mp_cost*(1-boost["%.SPELL.COST"]))
 
+        q_manager.check_quest(acc, 'spells', '', 1)
         if spell.target != 'multi':
             df = acc.battle.enemy[e].df
             cond = acc.battle.e_cond[e]
@@ -1322,6 +1338,7 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
 
         if crit:
             crit = '. **Critical hit!**'
+            q_manager.check_quest(acc, 'crits', '', 1)
         else:
             crit = ''
 
@@ -1365,6 +1382,7 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
         crit = None
 
         acc.mp -= spell.mp_cost
+        q_manager.check_quest(acc, 'spells', '', 1)
 
         if spell.target != 'multi':
             df = opponent.total_stats['DEF']

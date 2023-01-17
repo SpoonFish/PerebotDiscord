@@ -3,6 +3,7 @@ import src.counters as counters
 import src.account as account
 import src.funcs.formulas as formulas
 import src.funcs.checks as checks
+import src.quest_manager as q_manager
 import random
 import discord
 import src.party_manager as party_manager
@@ -219,6 +220,8 @@ async def buy(message, item, amount, acc, pre, hide):
                     acc.inventory.pop(j)
             acc.aurum -= aurum_remove
             account.give_item(item, amount, acc)
+            if acc.area == 'Witch Hut':
+                q_manager.check_quest(acc, 'elixir', '', 1)
             account.write_file()
             await message.respond(body, ephemeral=hide)
         else:

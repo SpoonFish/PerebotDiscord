@@ -4,6 +4,7 @@ import src.account as account
 import src.funcs.formulas as formulas
 import src.funcs.checks as checks
 import random
+import src.quest_manager as q_manager
 import discord
 import src.party_manager as party_manager
 import src.counters as counters
@@ -83,5 +84,6 @@ async def cook(message, item, amount, acc, pre, hide):
                     acc.inventory.pop(j)
             else: acc.aurum -= cost[1]*amount
         account.give_item(item, amount, acc)
+        q_manager.check_quest(acc, 'cook', item, amount)
         account.write_file()
         await message.respond(f'You cooked {amount} **{item}**!', ephemeral=hide)

@@ -203,7 +203,7 @@ async def map(message, acc, pre, hide):
 async def quests(message, acc, hide):
     body = "**__Daily Quests:__**"
     d = [acc.vars["daily1"],acc.vars["daily2"],acc.vars["daily3"]]
-
+    progress = 0
     for daily in d:
         if daily[0] in ['monster', 'enchanted monster']:
             body += f'\nkill {daily[3]} {daily[0]}s - **{daily[2]}/{daily[3]}**'
@@ -223,6 +223,17 @@ async def quests(message, acc, hide):
             body += f'\nland {daily[3]} critical hits - **{daily[2]}/{daily[3]}**'
         elif daily[0] in 'vote':
             body += f'\nvote for the bot today - **{daily[2]}/{daily[3]}**'
+        try:
+            if daily[4] > 0:
+                body += ' (Completed)'
+            else:
+                progress -=1
+        except:
+                progress -=1
+
+    if progress == 0:
+            body += '\n\nYou have completed all the quests and recieved a **Hero Coin**!'
+        
 
     times = [int(i) for i in acc.vars["quest"][0].split('/')]
     next_quest_time = datetime.datetime(times[0],times[1],times[2],times[3],times[4],times[5])

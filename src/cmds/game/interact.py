@@ -1,6 +1,7 @@
 import src.consts as consts
 import src.counters as counters
 import src.account as account
+import src.quest_manager as q_manager
 import src.funcs.formulas as formulas
 import src.funcs.checks as checks
 import random
@@ -38,6 +39,7 @@ async def travel(message, area, acc, pre, hide, button=0, channel=0):
             for area2 in consts.adjacent_areas[acc.area]:
                 if area.lower().replace('1', 'i').replace('2', 'ii').replace('3', 'iii') == area2.lower() or area.lower() == area2.lower():
                     acc.area = area2
+                    q_manager.check_quest(acc, 'travel', '', 1)
                     account.write_file()
 
                     body = f'You have traveled to `{area2}`!\nTravel again to:\n'
@@ -55,6 +57,7 @@ async def travel(message, area, acc, pre, hide, button=0, channel=0):
             if area == 'Boat I':
                 area = 'Boat 1'
             if area in consts.adjacent_areas:
+                q_manager.check_quest(acc, 'travel', '', 1)
                 body = f'You have traveled to `{area}`!\nTravel again to:\n'
                 acc.area = area
                 account.write_file()

@@ -4,6 +4,8 @@ import datetime
 import src.funcs.formulas as formulas
 import random
 import src.consts as consts
+import src.account as account
+
 def generate_daily(acc):
     level = acc.level
     choices = ['cook', 'xp', 'vote', 'travel', 'monster', 'boss', 'enchanted monster', 'elixir', 'spells', 'crits']
@@ -109,6 +111,30 @@ def generate_daily(acc):
     
 
 
+def check_quest(acc, qtype, qobjective, amount):
+    try:
+        daily = [acc.vars["daily1"],acc.vars["daily2"],acc.vars["daily3"]]
+        for i,d in enumerate(daily):
+            if d[0] == qtype and d[1] == qobjective:
+                acc.vars[f'daily{i+1}'][2] += amount
+                if acc.vars[f'daily{i+1}'][2] >= acc.vars[f'daily{i+1}'][3]:
+                    acc.vars[f'daily{i+1}'][2] = acc.vars[f'daily{i+1}'][3]
+                    try:
+                        if acc.vars[f'daily{i+1}'][4] == 0:
+                            acc.vars[f'daily{i+1}'][4] = 1
+                    except:
+                            acc.vars[f'daily{i+1}'].append(1)
+                    if acc.vars[f'daily1'][4]+acc.vars[f'daily2'][4]+acc.vars[f'daily3'][4] == 3:
+                        acc.vars[f'daily1'][4] = 5
+                        acc.vars[f'daily2'][4] = 5
+                        acc.vars[f'daily3'][4] = 5
+                        account.give_item('hero coin', 1, acc)
+
+            else:
+                continue
+
+    except:
+        pass
 
 def get_dailies(acc, bypass_check = False):
     try:
@@ -123,68 +149,12 @@ def get_dailies(acc, bypass_check = False):
         str_quest_time = f"{quest_time.year}/{quest_time.month}/{quest_time.day}/{quest_time.hour}/{quest_time.minute}/{quest_time.second}"
         acc.vars['quest']= [str_quest_time, str_quest_time, str_quest_time]
         quest_timers = acc.vars["quest"]
-        acc.vars['daily1'] = ["","",0,1]
-        acc.vars['daily2'] = ["","",0,1]
-        acc.vars['daily3'] = ["","",0,1]
+        acc.vars['daily1'] = ["","",0,1,0]
+        acc.vars['daily2'] = ["","",0,1,0]
+        acc.vars['daily3'] = ["","",0,1,0]
     quest_time = datetime.datetime.now()+datetime.timedelta(days=1)
     new_quest_time = f"{quest_time.year}/{quest_time.month}/{quest_time.day}/{quest_time.hour}/{quest_time.minute}/{quest_time.second}"
     quest_timers[0] =  new_quest_time
     acc.vars['daily1'] = generate_daily(acc)
     acc.vars['daily2'] = generate_daily(acc)
     acc.vars['daily3'] = generate_daily(acc)
-
-def get_inv(acc, item):
-    inv = acc.inventory
-    for i in inv:
-        if i.name == item:
-            return i
-    return None
-
-def get_total_boost(acc):
-    stat_boost = {"any": False, "XP": 0, "LOOT": 0, "DMG": 0, "DEF": 0, "%.CRIT": 0, "%.CRIT.DMG":0, "%.SPELL.DMG":0, "%.SPELL.COST": 0, "MAX HP": 0, "MAX MP": 0, "HEAL": 0 }
-    try:
-        
-        boosts = acc.vars["boost"]
-        for i in range(0, len(acc.vars["boost"])-1, 2):
-            stat_boost['any'] = True
-            elixir = boosts[i]
-            stats = consts.boosts[elixir]["stats"]
-            for stat in stats:
-                stat_boost[stat[0]] += stat[1]
-    except:
-        pass
-    
-    return stat_boost
-
-
-def get_type(item):
-    if item.endswith('elixir'):
-        return 'elixir'
-    try:
-            
-        i_type = item.split(' ')[1]
-        if i_type in consts.item_types['sword']:
-            type = 'sword'
-        elif i_type in consts.item_types['shield']:
-            type = 'shield'
-        elif i_type in consts.item_types['wand']:
-            type = 'wand'
-        elif i_type in consts.item_types['glove']:
-            type = 'glove'
-        elif i_type in consts.item_types['helmet']:
-            type = 'helmet'
-        elif i_type in consts.item_types['armour']:
-            type = 'armour'
-        elif i_type in consts.item_types['mystic']:
-            type = 'mystic'
-        elif i_type in consts.item_types['ring']:
-            type = 'ring'
-        elif i_type in consts.item_types['instrument']:
-            type = 'instrument'
-        else:
-            type = 'resource'
-    except: 
-        type = 'resource'
-    if item in consts.item_types['food']:
-        type = 'consumable'
-    return type
