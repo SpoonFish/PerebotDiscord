@@ -758,10 +758,10 @@ def reward(acc, monster, party):
             for i in acc.inventory:
                 if i.name == item:
                     if i.upgrade_lvl > 1:
-                        aurum = consts.items[item]['sell'][0]
+                        aurum = consts.items[item]['sell'][0][0]
             if acc.ring != '' and acc.ring.name == 'midas ring':
                 amount = random.randint(loot[2][0], loot[2][1])
-                aurum = round(consts.items[item]['sell'][0]* 1.05+(acc.ring.upgrade_lvl-1)*0.006)*amount
+                aurum = round(consts.items[item]['sell'][0][0]* 1.05+(acc.ring.upgrade_lvl-1)*0.006)*amount
             if aurum == 0:
                 if item == 'minae':
                     amount = round(random.uniform(loot[2][0], loot[2][1])*mult)

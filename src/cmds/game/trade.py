@@ -195,7 +195,7 @@ async def buy(message, item, amount, acc, pre, hide):
                 if acc.aurum >= price * amount:
                     aurum_remove = price * amount
                 else:
-                    body += f'You do not have enough aurum to buy {amount} {item}. You need **{price * amount}** aurum You have **{acc.aurum}** aurum\n'
+                    body += f'You do not have enough aurum to buy {amount} {item}. You need **{price * amount}** aurum. You have **{acc.aurum}** aurum\n'
                     canbuy = False
             else:
                 has = 0
@@ -207,8 +207,10 @@ async def buy(message, item, amount, acc, pre, hide):
                     j+=1
                 if not has or acc.inventory[j].amount < price * amount:
                     canbuy = False
-                    body += f'You do not have enough {itemcost} to buy {amount} {item}. You need **{price * amount}** {itemcost} You have **{acc.inventory[j].amount}** {itemcost}\n'
-                    
+                    if has:
+                        body += f'You do not have enough {itemcost} to buy {amount} {item}. You need **{price * amount}** {itemcost}. You have **{acc.inventory[j].amount}** {itemcost}\n'
+                    else:
+                        body += f'You do not have enough {itemcost} to buy {amount} {item}. You need **{price * amount}** {itemcost}. You have **no** {itemcost}\n'
                 pending_removes.append([j, price * amount])
                 
 
@@ -223,7 +225,7 @@ async def buy(message, item, amount, acc, pre, hide):
             if acc.area == 'Witch Hut':
                 q_manager.check_quest(acc, 'elixir', '', 1)
             account.write_file()
-            await message.respond(body, ephemeral=hide)
+            await message.respond(f'You bought **{amount} {item}**!', ephemeral=hide)
         else:
             await message.respond(body, ephemeral = hide)
     else:
