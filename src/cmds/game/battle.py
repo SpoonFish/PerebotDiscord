@@ -1154,7 +1154,7 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
             if cond[0].name == 'rage':
                 dmg = acc.total_stats["HP"]*(0.06+((cond[0].potence-1)*0.02))
                 dmg = round(min(dmg, math.ceil(acc.level)))
-                special = f'**Rage** deals **{dmg}** damage'
+                body += f'**Rage** deals **{dmg}** damage'
             elif cond[0].name == 'poison':
                 dmg = acc.total_stats["HP"]*(0.05+((cond[0].potence-1)*0.01))
                 dmg = round(min(dmg, math.ceil(acc.level/1.2)))
@@ -1595,7 +1595,7 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
         if cond[0].name == 'rage':
             dmg = acc.total_stats["HP"]*(0.06+((cond[0].potence-1)*0.02))
             dmg = round(min(dmg, math.ceil(acc.level)))
-            special = f'**Rage** deals **{dmg}** damage'
+            body += f'**Rage** deals **{dmg}** damage'
         elif cond[0].name == 'poison':
             dmg = acc.total_stats["HP"]*(0.05+((cond[0].potence-1)*0.01))
             dmg = round(min(dmg, math.ceil(acc.level/1.2)))

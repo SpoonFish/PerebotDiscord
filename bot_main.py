@@ -846,7 +846,7 @@ async def leaderboard_show(ctx, user: discord.User=None):
     await info_cmds.leaderboard(ctx, acc, pre, hide, user)
 
 @client.slash_command(name="bot-stats", description='Shows some bot statistics')
-async def report(ctx, bug: discord.Option(str)):
+async def botstats(ctx):
     if not is_init(ctx): 
         await ctx.respond(f'There are no configuration settings in this server ({ctx.author.guild.name}) yet. An admin must use /initiate to start using/configuring the bot') ;return
     if not check.channel(ctx.channel): await ctx.respond('You cannot use the bot in this channel!', ephemeral=True); return
@@ -858,7 +858,7 @@ async def report(ctx, bug: discord.Option(str)):
     **ACCOUNTS:** {len(account.acc_list)}
     **SERVERS:** {len(account.serv_list)}
     '''
-    ctx.respond(body, ephemeral = hide)
+    await ctx.respond(body, ephemeral = hide)
 
 @client.slash_command(name="report-bug", description='Report a bug or exploit you might have found')
 async def report(ctx, bug: discord.Option(str)):
