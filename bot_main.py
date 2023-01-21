@@ -845,7 +845,22 @@ async def leaderboard_show(ctx, user: discord.User=None):
     
     await info_cmds.leaderboard(ctx, acc, pre, hide, user)
 
-@client.slash_command(name="report-bug-or-exploit", description='Report a bug or exploit you might have found')
+@client.slash_command(name="bot-stats", description='Shows some bot statistics')
+async def report(ctx, bug: discord.Option(str)):
+    if not is_init(ctx): 
+        await ctx.respond(f'There are no configuration settings in this server ({ctx.author.guild.name}) yet. An admin must use /initiate to start using/configuring the bot') ;return
+    if not check.channel(ctx.channel): await ctx.respond('You cannot use the bot in this channel!', ephemeral=True); return
+    if not check.account_exists(ctx.author): await ctx.respond('You need to create an account first! Use `/start` to create an account', ephemeral=True); return
+    hide = configs.get_config(ctx.guild.name, 'ephemeral')
+    acc = account.get_account(ctx.author)
+
+    body =f'''
+    **ACCOUNTS:** {len(account.acc_list)}
+    **SERVERS:** {len(account.serv_list)}
+    '''
+    ctx.respond(body, ephemeral = hide)
+
+@client.slash_command(name="report-bug", description='Report a bug or exploit you might have found')
 async def report(ctx, bug: discord.Option(str)):
     if not is_init(ctx): 
         await ctx.respond(f'There are no configuration settings in this server ({ctx.author.guild.name}) yet. An admin must use /initiate to start using/configuring the bot') ;return

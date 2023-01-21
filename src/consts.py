@@ -115,6 +115,7 @@ items = {
     'magic tentacle': {'desc': 'A huge slimy tentacle from a great sea creature', 'buy': [[1000, 'aurum']], 'sell': [[ 200,'aurum']]},
     'magic branch': {'desc': 'A evergowing branch that smells of 1000 flowers', 'buy': [[1600, 'aurum']], 'sell': [[ 250,'aurum']]},
 
+    'kraken ink': {'desc': 'The ink of a legendary creature from a distant time. Perhaps an ancient ancestor of King Polypus', 'buy': [[100000,'aurum']], 'sell': [[ 5,'hero coin']]},
     'peach sap': {'desc': 'Basically tree blood. It might be edible but also might be poisonous. Eat it anyway', 'buy': [[100000,'aurum']], 'sell': [[ 1,'hero coin']]},
     'minae': {'desc': 'An enchanted material that is used to upgrade any item, can drop from any monster', 'buy': [[100,5]], 'sell': [[ 1,'aurum']]},
     'magic dust': {'desc': 'Sparkling dust dropped from powerful monsters. Used for buying/upgrading spells', 'buy': [[100,'aurum']], 'sell': [[ 1,'aurum']]},
@@ -509,6 +510,7 @@ spells = {
     'earthquake': {'name': 'earthquake', 'tier': 2, 'dmg_percent': 40, 'chance': 30, 'potence': 1, 'duration': 1, 'effect': 'paralysis', 'target': 'multi', 'cost': 19, 'upgrade': {'DMG%': 5, 'CHANCE': 5, 'DURATION': 0, 'POTENCE': 0}, 'desc':'Shake the ground beneath your enemies bringing them to the floor.'},
     'sharp arrow': {'name': 'sharp arrow', 'tier': 2, 'dmg_percent': 135, 'chance': 30, 'potence': 3, 'duration': 4, 'effect': 'bleeding', 'target': 'enemy', 'cost': 21, 'upgrade': {'DMG%': 7, 'CHANCE': 3, 'DURATION': 0, 'POTENCE': 0}, 'desc':'Shoot a sharp arrow that bursts the veins of any monster and can make them bleed.'},
     'warriors rune': {'name': 'warriors rune', 'tier': 2, 'dmg_percent': 0, 'chance': 100, 'potence': 1, 'duration': 4, 'effect': 'warrior spirit', 'target': 'player', 'cost': 18, 'upgrade': {'DMG%': 0, 'CHANCE': 0, 'DURATION': 0, 'POTENCE': 1}, 'desc':'Call upon ancient warriors to give you strength.'},
+    'burning rage': {'name': 'burning rage', 'tier': 2, 'dmg_percent': 120, 'chance': 80, 'potence': 1, 'duration': 3, 'effect': 'rage', 'target': 'player', 'cost': 15, 'upgrade': {'DMG%': 4, 'CHANCE': 4, 'DURATION': 0, 'POTENCE': 1}, 'desc':'Burn from the inside out with pure rage that boils your blood.'},
     'life drain': {'name': 'life drain', 'tier': 2, 'dmg_percent': 105, 'chance': 50, 'potence': 1, 'duration': 2, 'effect': 'bleeding', 'target': 'enemy', 'cost': 17, 'upgrade': {'DMG%': 5, 'CHANCE': 0, 'DURATION': 0, 'POTENCE':0}, 'desc':'Heal from the blood of your foes.'},
     
     #t3
@@ -530,6 +532,7 @@ spell_final_costs = {
     'sharp arrow': [['magic fang', 3],['magic dust', 340]],
     'warriors rune': [['glass sword', 1],['magic dust', 420]],
     'life drain': [['blood', 35],['magic dust', 520]],
+    'burning rage': [['blood', 35],['magic dust', 520]],
 
     'meteor strike': [['magic branch', 3],['magic dust', 700]],
     'icicle': [['magic crystal orb', 1],['magic dust', 600]],
@@ -547,6 +550,7 @@ spell_costs = {
     'earthquake': [['aurum', 550],['magic dust', 145]],
     'sharp arrow': [['aurum', 500],['magic dust', 150]],
     'warriors rune': [['aurum', 550],['magic dust', 185]],
+    'burning rage': [['aurum', 700],['magic dust', 120]],
     'life drain': [['aurum', 600],['magic dust', 215]],
 
     'meteor strike': [['aurum', 800],['magic dust', 250]],
@@ -560,6 +564,7 @@ conditions = {
     'dizziness': {'desc': '&% less damage on the next turn, 15% chance to miss', 'base':35-10, 'inc':10},
     'blindness': {'desc': '&% to miss the next attack', 'base':30-10, 'inc':10},
     'poison': {'desc': '-&% HP each turn', 'base':5-1, 'inc':1},
+    'rage': {'desc': '+30% CRIT (+10% each level), +20% DMG, -&% HP each turn', 'base':6-2, 'inc':2},
     'burning': {'desc': '-&% HP each turn. Higher DMG reduces the burning damage', 'base':7-1.2, 'inc':1.2},
     'bleeding': {'desc': '-3% HP each turn and -&% healing potency', 'base':25-10, 'inc':10},
     'broken armour': {'desc': '-&% DEF for the next turn', 'base':70, 'inc':0},
@@ -571,7 +576,7 @@ conditions = {
 }
 
 mob_loot = {
-    'krakow': [],
+    'krakow': [['kraken ink', 0.1, [1,1]]],
     'crow': [['egg', 50, [1,2]],['feather', 50, [1,2]],['apple', 65, [1,1]],['stick', 100, [1,2]],['minae', 50, [1,1]], ['feather blade', 10, [1,1]]],
     'badger': [['badger fur', 60, [1,3]],['blueberry', 65, [1,1]],['stick', 80, [1,1]],['minae', 50, [1,2]], ['fluffy hat', 10, [1,1]]],
     'manihot': [['leaf', 75, [1,3]],['spud', 45, [1,2]],['minae', 50, [1,3]], ['leaf crown', 9, [1,1]]],
