@@ -561,7 +561,7 @@ spell_costs = {
 
 conditions = {
     'paralysis': {'desc': '&% less damage on the next turn, cannot flee', 'base':90, 'inc':0},
-    'dizziness': {'desc': '&% less damage on the next turn, 15% chance to miss', 'base':35-10, 'inc':10},
+    'dizziness': {'desc': '&% less damage on the next turn, 10% chance to miss', 'base':15-6, 'inc':6},
     'blindness': {'desc': '&% to miss the next attack', 'base':30-10, 'inc':10},
     'poison': {'desc': '-&% HP each turn', 'base':5-1, 'inc':1},
     'rage': {'desc': '+30% CRIT (+10% each level), +20% DMG, -&% HP each turn', 'base':6-2, 'inc':2},

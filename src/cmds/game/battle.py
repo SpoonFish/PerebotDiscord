@@ -628,7 +628,7 @@ def e_attack(acc, enemy, i, party):
             dmg = max(1, round(dmg*0.1))
 
         elif cond[0].name == 'dizziness':
-            dmg = max(1, round(dmg*(0.65-((cond[0].potence-1)*0.1))))
+            dmg = max(1, round(dmg*(0.85-((cond[0].potence-1)*0.06))))
             if random.randint(1,100) <= 15:
                 dmg = 0
                 print(dmg)
@@ -696,7 +696,7 @@ def e_attack(acc, enemy, i, party):
             dmg = max(1, round(dmg*0.1))
 
         elif cond[0].name == 'dizziness':
-            dmg = max(1, round(dmg*(0.65-((cond[0].potence-1)*0.1))))
+            dmg = max(1, round(dmg*(0.85-((cond[0].potence-1)*0.06))))
             if random.randint(1,100) <= 15:
                 dmg = 0
                 crit = '. They missed!'
@@ -918,7 +918,7 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
                 dmg = max(1, round(dmg*0.1))
 
             elif cond[0].name == 'dizziness':
-                dmg = max(1, round(dmg*(0.65-((cond[0].potence-1)*0.1))))
+                dmg = max(1, round(dmg*(0.85-((cond[0].potence-1)*0.06))))
                 if random.randint(1,100) <= 15:
                     dmg = 0
                     crit = '. You missed!'
@@ -980,7 +980,7 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
                     dmg = max(1, round(dmg*0.1))
 
                 elif cond[0].name == 'dizziness':
-                    dmg = max(1, round(dmg*(0.65-((cond[0].potence-1)*0.1))))
+                    dmg = max(1, round(dmg*(0.85-((cond[0].potence-1)*0.06))))
                     if random.randint(1,100) <= 15:
                         dmg = 0
                         crit = f'. {you} missed!'
@@ -1078,7 +1078,7 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
                         dmg = max(1, round(dmg*0.1))
 
                     elif cond[0].name == 'dizziness':
-                        dmg = max(1, round(dmg*(0.65-((cond[0].potence-1)*0.1))))
+                        dmg = max(1, round(dmg*(0.85-((cond[0].potence-1)*0.06))))
                         if random.randint(1,100) <= 15:
                             dmg = 0
                             crit = f'. {you} missed!'
@@ -1368,7 +1368,7 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
                 dmg = max(1, round(dmg*0.1))
 
             elif cond[0].name == 'dizziness':
-                dmg = max(1, round(dmg*(0.65-((cond[0].potence-1)*0.1))))
+                dmg = max(1, round(dmg*(0.85-((cond[0].potence-1)*0.06))))
                 if random.randint(1,100) <= 15:
                     dmg = 0
                     crit = '. You missed!'
@@ -1426,7 +1426,7 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
                     dmg = max(1, round(dmg*0.1))
 
                 elif cond[0].name == 'dizziness':
-                    dmg = max(1, round(dmg*(0.65-((cond[0].potence-1)*0.1))))
+                    dmg = max(1, round(dmg*(0.85-((cond[0].potence-1)*0.06))))
                     if random.randint(1,100) <= 15:
                         dmg = 0
                         crit = f'. {you} missed!'
@@ -1521,7 +1521,7 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
                     dmg = max(1, round(dmg*0.1))
 
                 elif cond[0].name == 'dizziness':
-                    dmg = max(1, round(dmg*(0.65-((cond[0].potence-1)*0.1))))
+                    dmg = max(1, round(dmg*(0.85-((cond[0].potence-1)*0.06))))
                     if random.randint(1,100) <= 15:
                         dmg = 0
                         crit = f'. {you} missed!'
