@@ -528,6 +528,10 @@ def e_attack(acc, enemy, i, party):
         max_hp = round(hp_mult*consts.mob_stats[enemy.name]['HP'])
         lvl = consts.mob_stats[enemy.name]['LVL']
         heal = 0
+        if cond[0].name == 'rage':
+            dmg = max_hp*(0.06+((cond[0].potence-1)*0.02))
+            dmg = round(min(dmg, math.ceil(lvl)))
+            special = f'**Rage** deals them **{dmg}** damage'
         if cond[0].name == 'poison':
             dmg = max_hp*(0.05+((cond[0].potence-1)*0.01))
             dmg = round(min(dmg, math.ceil(lvl)))
@@ -747,7 +751,7 @@ def reward(acc, monster, party):
     q_manager.check_quest(acc, 'xp', '', xp)
     acc.xp += xp
     for loot in consts.mob_loot[monster]:
-        rnd = random.randint(1, 100)
+        rnd = random.randint(1, 10000)/100
         chance = loot[1]
         if acc.ring != '' and acc.ring.name == 'ruby ring':
             chance = chance*(1.2+(acc.ring.upgrade_lvl-1)*0.01)
@@ -882,8 +886,12 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
 
     boost = getter.get_total_boost(acc)
     if not spell:
+        extra_crit = 0
+        for cond in acc.battle.p_cond:
+            if cond[0].name == 'rage':
+                extra_crit = 30
 
-        dmg, crit = formulas.form_dmg(acc.total_stats['DMG'],acc.total_stats['%.CRIT']+boost["%.CRIT"],acc.total_stats['%.CRIT.DMG']+boost["%.CRIT.DMG"])
+        dmg, crit = formulas.form_dmg(acc.total_stats['DMG'],acc.total_stats['%.CRIT']+boost["%.CRIT"]+extra_crit,acc.total_stats['%.CRIT.DMG']+boost["%.CRIT.DMG"])
         
         dmg = round(dmg *(1+boost["DMG"]/100))
         
@@ -918,6 +926,8 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
             
             elif cond[0].name == 'warrior spirit':
                 dmg = round(dmg*(1.3+((cond[0].potence-1)*0.1)))
+            elif cond[0].name == 'rage':
+                dmg = round(dmg*(1.2))
 
             elif cond[0].name == 'blindness':
                 if random.randint(1,100) <= (30+((cond[0].potence-1)*10)):
@@ -980,6 +990,8 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
             
                 elif cond[0].name == 'warrior spirit':
                     dmg = round(dmg*(1.3+((cond[0].potence-1)*0.1)))
+                elif cond[0].name == 'rage':
+                    dmg = round(dmg*(1.2))
 
                 elif cond[0].name == 'blindness':
                     if random.randint(1,100) <= (30+((cond[0].potence-1)*10)):
@@ -1139,7 +1151,11 @@ async def attack(message, enemy, acc, pre, hide, flee=0, button=0, spell=0, chan
             mpdmg = 0
             hpheal = 0
             mpheal = 0
-            if cond[0].name == 'poison':
+            if cond[0].name == 'rage':
+                dmg = acc.total_stats["HP"]*(0.06+((cond[0].potence-1)*0.02))
+                dmg = round(min(dmg, math.ceil(acc.level)))
+                special = f'**Rage** deals **{dmg}** damage'
+            elif cond[0].name == 'poison':
                 dmg = acc.total_stats["HP"]*(0.05+((cond[0].potence-1)*0.01))
                 dmg = round(min(dmg, math.ceil(acc.level/1.2)))
                 body += f'**Poison** deals **{dmg}** damage\n'
@@ -1319,9 +1335,14 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
         else: await message.respond(f'**{opponent.name}** is dead', ephemeral=hide)
         return
 
+    boost = getter.get_total_boost(acc)
     if not spell:
+        extra_crit = 0
+        for cond in conds:
+            if cond[0].name == 'rage':
+                extra_crit = 30
 
-        dmg, crit = formulas.form_dmg(acc.total_stats['DMG'],acc.total_stats['%.CRIT'],acc.total_stats['%.CRIT.DMG'])
+        dmg, crit = formulas.form_dmg(acc.total_stats['DMG'],acc.total_stats['%.CRIT']+boost["%.CRIT"]+extra_crit,acc.total_stats['%.CRIT.DMG']+boost["%.CRIT.DMG"])
         
         
         df = opponent.total_stats["DEF"]
@@ -1355,6 +1376,9 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
             
             elif cond[0].name == 'warrior spirit':
                 dmg = round(dmg*(1.3+((cond[0].potence-1)*0.1)))
+                
+            elif cond[0].name == 'rage':
+                dmg = round(dmg*(1.2))
 
             elif cond[0].name == 'blindness':
                 if random.randint(1,100) <= (30+((cond[0].potence-1)*10)):
@@ -1412,6 +1436,8 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
             
                 elif cond[0].name == 'warrior spirit':
                     dmg = round(dmg*(1.3+((cond[0].potence-1)*0.1)))
+                elif cond[0].name == 'rage':
+                    dmg = round(dmg*(1.2))
 
                 elif cond[0].name == 'blindness':
                     if random.randint(1,100) <= (30+((cond[0].potence-1)*10)):
@@ -1566,7 +1592,11 @@ async def pvp_attack(message, acc, pre, hide, flee=0, button=0, spell=0, channel
         mpdmg = 0
         hpheal = 0
         mpheal = 0
-        if cond[0].name == 'poison':
+        if cond[0].name == 'rage':
+            dmg = acc.total_stats["HP"]*(0.06+((cond[0].potence-1)*0.02))
+            dmg = round(min(dmg, math.ceil(acc.level)))
+            special = f'**Rage** deals **{dmg}** damage'
+        elif cond[0].name == 'poison':
             dmg = acc.total_stats["HP"]*(0.05+((cond[0].potence-1)*0.01))
             dmg = round(min(dmg, math.ceil(acc.level/1.2)))
             body += f'**Poison** deals **{dmg}** damage\n'
