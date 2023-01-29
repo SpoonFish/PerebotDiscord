@@ -200,7 +200,7 @@ You have voted {votes} times
 
 
 @client.slash_command(name="map", description='Shows the map')
-async def map(ctx):
+async def game_map(ctx):
     if not is_init(ctx): 
         await ctx.respond(f'There are no configuration settings in this server ({ctx.author.guild.name}) yet. An admin must use /initiate to start using/configuring the bot') ;return
     if not check.channel(ctx.channel): await ctx.respond('You cannot use the bot in this channel!', ephemeral=True); return
@@ -844,6 +844,73 @@ async def leaderboard_show(ctx, user: discord.User=None):
 
     
     await info_cmds.leaderboard(ctx, acc, pre, hide, user)
+def create_role_view(role_ids, roles):
+    class Role(discord.ui.View):
+        all_roles = [1066752084394909827,1066753091271151717,1066753262474248192,1066753782756692058,1066753917217681418]
+        roles_to_remove = [discord.utils.get(roles, id = r) for r in all_roles]
+        role = discord.utils.get(roles, id=role_ids[0])
+        @discord.ui.button(label=role.name, row=0, style=discord.ButtonStyle.gray)
+        async def level_role_button_callback1(self, button, interaction, role=role,roles_to_remove=roles_to_remove):
+            for r in roles_to_remove:
+                await interaction.user.remove_roles(r)
+            await interaction.user.add_roles(role)
+            await interaction.response.send_message(f"You received the (**{role.name}**) role!", ephemeral = True)
+
+        for i,other_role_id in enumerate(role_ids[1:5]):
+            role = discord.utils.get(roles, id=other_role_id)
+            if i == 0:
+                @discord.ui.button(label=role.name, row=1, style=discord.ButtonStyle.red)
+                async def other_role_button_callback1(self, button, interaction, role=role):
+                    await interaction.user.add_roles(role)
+                    await interaction.response.send_message(f"You received the (**{role.name}**) role!", ephemeral = True)
+            elif i == 1:
+                @discord.ui.button(label=role.name, row=1, style=discord.ButtonStyle.red)
+                async def other_role_button_callback2(self, button, interaction, role=role):
+                    await interaction.user.add_roles(role)
+                    await interaction.response.send_message(f"You received the (**{role.name}**) role!", ephemeral = True)
+            elif i == 2:
+                @discord.ui.button(label=role.name, row=1, style=discord.ButtonStyle.red)
+                async def other_role_button_callback3(self, button, interaction, role=role):
+                    await interaction.user.add_roles(role)
+                    await interaction.response.send_message(f"You received the (**{role.name}**) role!", ephemeral = True)
+
+
+    return Role()
+@client.slash_command(name="get-role", description='Get a role based on your account level')
+async def getrole(ctx):
+    if not is_init(ctx): 
+        await ctx.respond(f'There are no configuration settings in this server ({ctx.author.guild.name}) yet. An admin must use /initiate to start using/configuring the bot') ;return
+    if not check.channel(ctx.channel): await ctx.respond('You cannot use the bot in this channel!', ephemeral=True); return
+    if not check.account_exists(ctx.author): await ctx.respond('You need to create an account first! Use `/start` to create an account', ephemeral=True); return
+    hide = configs.get_config(ctx.guild.name, 'ephemeral')
+    acc = account.get_account(ctx.author)
+    if ctx.guild.id != 934960266775502868:
+        await ctx.respond('This command can only be used in the official server for the bot. Use `/discord` for an invite!',ephemeral = True)
+        return
+    level = acc.level
+    available_roles = []
+    if level < 10:
+        available_roles.append(1066752084394909827)
+    elif level < 20:
+        available_roles.append(1066753091271151717)
+    elif level < 30:
+        available_roles.append(1066753262474248192)
+    elif level < 40:
+        available_roles.append(1066753782756692058)
+    elif level < 50:
+        available_roles.append(1066753917217681418)
+    items = list(map(lambda x: x.name, acc.inventory))
+    if 'magic fang' in items:
+        available_roles.append(1066761015229960282)
+    if 'stick sword' in items:
+        available_roles.append(1066759607730589818)
+    body = f"**Choose an available role to add some status and achievments to your profile!**\n*There is a new level-role every 10 levels, you can only have 1 of these at a time, they colour your name!*"
+    if len(available_roles) > 1:
+        body += "\n*The 'red' roles are random achievements you have completed in the game. They will stay on your profile forever*"
+    else:
+        body += "\n*You can unlock more roles by completing secret achievements and levelling up!*"
+
+    await ctx.respond('Choose a role',ephemeral = True, view = create_role_view(available_roles, ctx.guild.roles))
 
 @client.slash_command(name="bot-stats", description='Shows some bot statistics')
 async def botstats(ctx):
