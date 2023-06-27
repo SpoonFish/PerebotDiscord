@@ -4,7 +4,7 @@ import src.configs as configs
 import src.consts as consts
 import src.account as account
 
-ADMINS = ['SpoonFsh#5129', 'jeels#3517', 'Pereger#1760', 'Pointymctest2#7442']
+ADMINS = ['spoon_fish#0', 'jeels_#0', 'Pereger#1760', 'Pointymctest2#7442']
 
 def admin(user):
     is_admin = user.guild_permissions.administrator or user.name+'#'+user.discriminator in ADMINS
