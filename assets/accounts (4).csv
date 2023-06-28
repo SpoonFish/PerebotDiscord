@@ -1,0 +1,2261 @@
+1011722096025534585:
+ - Lvl: 29
+ - Xp: 880
+ - Inv: minae-42010,magic dust-1690,leaf-450,wheat-59,leaf crown-1-+12.0 DEF-+5.5 MP,scale-16,fungus-52,sparkly sand-89,glass sword-1-+20.0 DMG-+7.0 %.CRIT,wolf gloves-1-+18.0 DMG-+11.0 DEF-+11.0 HP,magic fang-12,ruby ring-1-+16.0 DEF,small hp potion-8,bat wing-8,snake fang-3,crab armour-1-+28.0 DEF-+12.0 HP-+12.0 MP,clam shell-107,shiny pearl-62,shellfish-153,mermaid harp-1-+18.0 DMG-+15.0 %.SPELL.DMG,wolf meat-27,wolf fur-143,howling horn-1-+45.0 DMG-+8.399999999999999 %.CRIT-+23.799999999999997 %.SPELL.DMG-+11.200000000000003 HP,bear fur-3,wisp essence-9,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG,aqua ring-1-+12.0 MP,medium hp potion-4,wolf paw-30,flour-56,wolf pasty-1,wolf head-1-+35.0 DEF-+24.0 HP-+2.4000000000000004 %.CRIT-+12.0 MP,crab shell-150,fries-50,fries-1,spud-52,egg-2,apple-19,stick-5,feather-3,hero coin-45,red elixir-2,sleeping bag-1,pearl thread-24,eye of the wolf-1-+24.0 DEF-+10.400000000000002 %.CRIT-+32.5 %.CRIT.DMG-+6.5 MP-+15.0 LVL,fur tunic-1-+17.0 DEF-+10.0 HP-+10.0 LVL,medium mp potion-13,magic tentacle-34,pearlescent wand-1-+20.0 DMG-+25.0 %.CRIT.DMG-+24.0 LVL,pearlescent wand-1-+20.0 DMG-+25.0 %.CRIT.DMG-+24.0 LVL,potato salad-5,lucky elixir-5,campfire-1,fur tunic-1-+17.0 DEF-+10.0 HP-+10.0 LVL,shiny elixir-6,silva salad-10,honey apples-20,fish n chips-145,small mixed potion-9,tentacle chestplate-1-+42.0 DEF-+5.0 DMG-+25.0 HP-+25.0 MP-+25.0 LVL,medium mixed potion-1,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,magic wallet-1,mage elixir-20,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,
+ - Weapon: howling horn-1-+45.0 DMG-+8.399999999999999 %.CRIT-+23.799999999999997 %.SPELL.DMG-+11.200000000000003 HP
+ - Armour: tentacle chestplate-1-+42.0 DEF-+5.0 DMG-+25.0 HP-+25.0 MP-+25.0 LVL
+ - Helmet: wolf head-1-+35.0 DEF-+24.0 HP-+2.4000000000000004 %.CRIT-+12.0 MP
+ - Offhand: eye of the wolf-1-+24.0 DEF-+10.400000000000002 %.CRIT-+32.5 %.CRIT.DMG-+6.5 MP-+15.0 LVL
+ - Ring: ruby ring-1-+16.0 DEF
+ - Hp: 246
+ - Mp: 146
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Beach III
+ - Aurum: 44202
+ - Spells: fireball-5,super punch-1,poison cloud-4,regeneration-4,earthquake-2,magic shield-3,
+ - EqSpells: 2,fireball,regeneration,earthquake,magic shield
+ - Vars: votes-78,0;quest-2023/6/29/21/23/41,2023/1/16/23/12/15,2023/1/16/23/12/15;daily1-spells,,0,41;daily2-travel,,0,27;daily3-vote,,0,1
+986698866109857823:
+ - Lvl: 25
+ - Xp: 650
+ - Inv: egg-187,apple-156,stick-328,minae-705,feather-108,blueberry-65,badger fur-138,leaf-44,spud-1286,wheat-1127,scale-1365,truffle spores-1180,blood-5143,magic dust-41543,wolf fur-12168,wolf meat-7537,bat wing-2645,wolf paw-2043,shellfish-291,crab shell-397,sparkly sand-407,ruby ring-1-+11.0 DEF-+10.0 LVL,clam shell-223,pearl thread-68,shiny pearl-134,bear fur-37,silva flower-1718,wisp essence-3270,bear claw-10,honey-2640,wasp wing-4247,wasp stinger-1586,magic fang-16,eye of the wolf-1-+27.0 DEF-+11.200000000000003 %.CRIT-+35.0 %.CRIT.DMG-+7.0 MP-+15.0 LVL,magic tentacle-68,coral sword-1-+115.20000000000003 DMG-+27.59999999999999 %.CRIT-+57.5 %.CRIT.DMG-+23.0 %.SPELL.DMG-+25.0 LVL,wolf head-1-+45.0 DEF-+28.0 HP-+2.8000000000000007 %.CRIT-+14.0 MP-+15.0 LVL,sleeping bag-1,mystic conch-1,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,tentacle chestplate-1-+58.8 DEF-+6.0 DMG-+30.0 HP-+30.0 MP-+25.0 LVL,snake fang-30,fungus-767,stick sword-1-+1.0 DMG-+0.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,crab armour-1-+20.0 DEF-+10.0 HP-+10.0 MP-+17.0 LVL,pearlescent wand-1-+20.0 DMG-+25.0 %.CRIT.DMG-+24.0 LVL,magic crystal orb-1-+8.0 DMG-+12.0 %.SPELL.DMG-+20.0 LVL,
+ - Weapon: pearlescent wand-1-+20.0 DMG-+25.0 %.CRIT.DMG-+24.0 LVL
+ - Armour: crab armour-1-+20.0 DEF-+10.0 HP-+10.0 MP-+17.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: magic crystal orb-1-+8.0 DMG-+12.0 %.SPELL.DMG-+20.0 LVL
+ - Ring: 
+ - Hp: 32
+ - Mp: 70
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 82
+ - Spells: fireball-5,super punch-5,poison cloud-4,regeneration-5,earthquake-2,meteor strike-4,warriors rune-5,sharp arrow-4,mighty protector-5,shield shatter-5,icicle-4,magic shield-4,
+ - EqSpells: 2,regeneration,fireball,shield shatter,magic shield
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/12/15,2023/1/16/23/12/15;daily1-elixir,,0,1;daily2-monster,,0,41;daily3-vote,,0,1
+721421873065230387:
+ - Lvl: 36
+ - Xp: 32931
+ - Inv: wooden sword-1-+5.0 DMG,egg-2,apple-16,stick-71,feather blade-1-+5.0 DMG-+1.0 %.CRIT,feather-1,minae-19873,nature ring-1-+7.0 HP,spud-45,leaf crown-1-+12.0 DEF-+5.5 MP,wheat-43,wooden shield-1-+10.0 DEF,leather armour-1-+10.0 DEF,magic dust-15212,scale-6,snake fang-8,blood-70,wolf meat-115,fungus-22,wolfskin drums-1-+12.0 DMG-+5.0 %.CRIT-+15.0 %.CRIT.DMG,small hp potion-11,badger fur-3,blueberry-2,fur tunic-1-+15.0 DEF-+10.0 HP,magic fang-38,howling horn-1-+60.0 DMG-+10.199999999999998 %.CRIT-+28.899999999999995 %.SPELL.DMG-+13.600000000000005 HP,shellfish-632,crab shell-705,truffle spores-3,bear fur-142,bear claw-46,bear hat-1-+25.0 DEF-+10.0 MP,bat wing-20,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG,crab armour-1-+20.0 DEF-+10.0 HP-+10.0 MP,fur tunic-1-+15.0 DEF-+10.0 HP,wolf head-1-+25.0 DEF-+20.0 HP-+2.0 %.CRIT-+10.0 MP,wolf fur-170,wisp essence-446,silva flower-222,honey-36,wasp wing-43,wasp stinger-18,wasp suit-1-+42.0 DEF-+11.0 MP-+11.0 DMG,wolf head-1-+25.0 DEF-+20.0 HP-+2.0 %.CRIT-+10.0 MP,fur tunic-1-+15.0 DEF-+10.0 HP,clam shell-708,shiny pearl-398,inky ring-1-+35.0 DEF-+25.0 MP,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG,wolf paw-34,eye of the wolf-1-+15.0 DEF-+8.0 %.CRIT-+25.0 %.CRIT.DMG-+5.0 MP,fur tunic-1-+15.0 DEF-+10.0 HP,eye of the wolf-1-+15.0 DEF-+8.0 %.CRIT-+25.0 %.CRIT.DMG-+5.0 MP,sparkly sand-4,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG-+25.0 LVL,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG-+25.0 LVL,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG-+25.0 LVL,stick sword-1-+1.0 DMG-+0.0 LVL,sleeping bag-1,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,crab armour-1-+20.0 DEF-+10.0 HP-+10.0 MP-+17.0 LVL,aqua ring-1-+14.0 MP-+20.0 LVL,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG-+25.0 LVL,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG-+25.0 LVL,aurum-5113,fur tunic-1-+17.0 DEF-+10.0 HP-+10.0 LVL,large mp potion-59,mystic conch-1,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,bear hat-1-+25.0 DEF-+10.0 MP-+27.0 LVL,honey apples-1,hero coin-34,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG-+25.0 LVL,coral sword-1-+32.0 DMG-+12.0 %.CRIT-+25.0 %.CRIT.DMG-+10.0 %.SPELL.DMG-+25.0 LVL,stick sword-1-+1.0 DMG-+0.0 LVL,bear hat-1-+25.0 DEF-+10.0 MP-+27.0 LVL,magic branch-8,silva salad-9,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,pearl thread-9,crab armour-1-+22.0 DEF-+10.0 HP-+10.0 MP-+17.0 LVL,pearlescent wand-1-+20.0 DMG-+25.0 %.CRIT.DMG-+24.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,tentacle chestplate-1-+42.0 DEF-+5.0 DMG-+25.0 HP-+25.0 MP-+25.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,apple pie-5,blueberry pie-5,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,medium hp potion-1,leaf-41,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,bear hat-1-+25.0 DEF-+10.0 MP-+27.0 LVL,potato salad-5,lucky elixir-1,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,
+ - Weapon: howling horn-1-+60.0 DMG-+10.199999999999998 %.CRIT-+28.899999999999995 %.SPELL.DMG-+13.600000000000005 HP
+ - Armour: tentacle chestplate-1-+42.0 DEF-+5.0 DMG-+25.0 HP-+25.0 MP-+25.0 LVL
+ - Helmet: wolf head-1-+25.0 DEF-+20.0 HP-+2.0 %.CRIT-+10.0 MP
+ - Offhand: eye of the wolf-1-+15.0 DEF-+8.0 %.CRIT-+25.0 %.CRIT.DMG-+5.0 MP
+ - Ring: inky ring-1-+35.0 DEF-+25.0 MP
+ - Hp: 30
+ - Mp: 25
+ - Battle: 1-0-aculeo,aculeo,silva wisp-29,27,7-2,2,0-regeneration1:3,regeneration1:3,regeneration1:3-0-
+ - Area: Forest III
+ - Aurum: 7140
+ - Spells: poison cloud-2,sharp arrow-5,regeneration-5,warriors rune-5,meteor strike-5,shield shatter-5,icicle-5,
+ - EqSpells: 3,regeneration,warriors rune,shield shatter,icicle,meteor strike
+ - Vars: votes-24,0;quest-2023/6/29/21/23/41,2023/1/16/23/12/15,2023/1/16/23/12/15;daily1-enchanted monster,,0,5;daily2-cook,silva salad,0,26;daily3-elixir,,0,1;boost
+929361565868785697:
+ - Lvl: 45
+ - Xp: 299920
+ - Inv: feather-2,stick-1308,minae-11192,leaf-562,spud-11,wheat-1,magic dust-110724,badger fur-102,blueberry-25,snake fang-32,fungus-15,truffle spores-11,bat wing-2,wolf meat-962,scaled shield-1-+8.0 DEF-+5.0 HP-+5.0 LVL,sparkly sand-16,crab shell-1876,magic fang-557,egg-288,wolf head-1-+40.0 DEF-+26.0 HP-+2.6 %.CRIT-+13.0 MP-+15.0 LVL,aurum-150,hero coin-130,ruby ring-1-+5.0 DEF-+10.0 LVL,ruby ring-1-+5.0 DEF-+10.0 LVL,apple pie-5,blueberry pie-5,eye of the wolf-1-+24.0 DEF-+10.4 %.CRIT-+32.5 %.CRIT.DMG-+6.5 MP-+15.0 LVL,phase wings-1,medium hp potion-52,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,small mixed potion-42,potato salad-5,medium mp potion-88,clam shell-1844,shiny pearl-655,magic tentacle-1477,wasp wing-16,wasp stinger-4,honey-8,silva flower-20,wasp suit-1-+56.0 DEF-+13.0 MP-+13.0 DMG-+30.0 LVL,sleeping bag-1,wisp essence-673,bear fur-4,bear claw-1,coral sword-1-+185.60000000000002 DMG-+40.800000000000004 %.CRIT-+85.0 %.CRIT.DMG-+34.0 %.SPELL.DMG-+25.0 LVL,tentacle chestplate-1-+58.8 DEF-+6.0 DMG-+30.0 HP-+30.0 MP-+25.0 LVL,medium mixed potion-189,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,campfire-1,shiny elixir-21,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,pearl thread-4,wolf fur-467,wolf paw-205,howling horn-1-+25.0 DMG-+6.0 %.CRIT-+17.0 %.SPELL.DMG-+8.0 HP-+15.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,large mp potion-47,silva salad-45,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,small hp potion-3,blood-23,small mp potion-2,magic branch-62,large hp potion-6,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,shellfish-997,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,grass blade-1-+35.0 DMG-+20.0 %.CRIT-+5.0 HP-+20.0 MP-+35.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,apple-500,crystal apple-5,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,knight elixir-1,
+ - Weapon: coral sword-1-+185.60000000000002 DMG-+40.800000000000004 %.CRIT-+85.0 %.CRIT.DMG-+34.0 %.SPELL.DMG-+25.0 LVL
+ - Armour: tentacle chestplate-1-+58.8 DEF-+6.0 DMG-+30.0 HP-+30.0 MP-+25.0 LVL
+ - Helmet: wolf head-1-+40.0 DEF-+26.0 HP-+2.6 %.CRIT-+13.0 MP-+15.0 LVL
+ - Offhand: eye of the wolf-1-+24.0 DEF-+10.4 %.CRIT-+32.5 %.CRIT.DMG-+6.5 MP-+15.0 LVL
+ - Ring: inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL
+ - Hp: 370
+ - Mp: 304
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 28530
+ - Spells: fireball-5,regeneration-1,sharp arrow-5,warriors rune-5,icicle-5,burning rage-5,
+ - EqSpells: 2,fireball,sharp arrow,warriors rune,icicle,burning rage
+ - Vars: votes-7,0;quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-boss,king polypus,0,4;daily2-vote,,0,1;daily3-travel,,3,24;boost-red elixir,2023/6/28/22/5/23,knight elixir,2023/6/28/22/15/43,knight elixir,2023/6/28/22/15/52,knight elixir,2023/6/28/22/17/55
+306789809912020992:
+ - Lvl: 30
+ - Xp: 608
+ - Inv: wooden sword-1-+5.0 DMG,stick-91,minae-9999887653,apple-8735,leaf-57,leaf crown-1-+12.0 DEF-+5.5 MP,sparking wand-1-+20.0 DMG-+6.0 %.CRIT,fungus armour-1-+10.0 DEF-+5.0 DMG,scaled shield-1-+16.6 DEF-+5.5 HP,sparkly sand-35,crab armour-1-+120.0 DEF-+35.0 HP-+35.0 MP,spud-21,wheat-41,snake fang-93,scale-47,wolf paw-83,ruby ring-1-+5.0 DEF,aqua ring-1-+60.0 MP,fang knuckledusters-1-+5.0 DMG-+10.0 DEF,fungus-44,small hp potion-98,wolf fur-328,nature ring-1-+7.0 HP-+7.0 DEF,nature ring-1-+7.0 HP-+7.0 DEF,nature ring-1-+7.0 HP-+7.0 DEF,wolf gloves-1-+16.8 DMG-+9.6 DEF-+12.0 HP,fur tunic-1-+21.0 DEF-+12.0 HP,blood-35,bat wing-18,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG,medium hp potion-1314,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG,magic fang-32,howling horn-1-+25.0 DMG-+6.0 %.CRIT-+17.0 %.SPELL.DMG-+8.0 HP,badger fur-42,blueberry-25,feather-20,fluffy hat-1-+5.0 DEF-+3.0 HP,fluffy hat-1-+5.0 DEF-+3.0 HP,fang knuckledusters-1-+5.0 DMG-+10.0 DEF,fang knuckledusters-1-+5.0 DMG-+10.0 DEF,fang knuckledusters-1-+5.0 DMG-+10.0 DEF,crab shell-9,pearl thread-5,bear fur-3,bear claw-3,wisp essence-15,wasp wing-5,wasp stinger-1,howling horn-1-+25.0 DMG-+6.0 %.CRIT-+17.0 %.SPELL.DMG-+8.0 HP,feather blade-1-+5.0 DMG-+1.0 %.CRIT,fluffy hat-1-+5.0 DEF-+3.0 HP,fluffy hat-1-+5.0 DEF-+3.0 HP,fluffy hat-1-+5.0 DEF-+3.0 HP,feather blade-1-+5.0 DMG-+1.0 %.CRIT,fluffy hat-1-+5.0 DEF-+3.0 HP,fluffy hat-1-+5.0 DEF-+3.0 HP,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG,howling horn-1-+25.0 DMG-+6.0 %.CRIT-+17.0 %.SPELL.DMG-+8.0 HP,shiny pearl-1,wolf meat-2,
+ - Weapon: wolf gloves-1-+18.0 DMG-+11.0 DEF-+100.0 HP
+ - Armour: fungus armour-1-+12.0 DEF-+5.5 DMG
+ - Helmet: leaf crown-1-+12.0 DEF-+5.5 MP
+ - Offhand: scaled shield-1-+8.0 DEF-+5.0 HP
+ - Ring: nature ring-1-+7.0 HP-+7.0 DEF
+ - Hp: 7975
+ - Mp: 158
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 8100705
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-boss,alpha wolf,0,4;daily2-enchanted monster,,0,4;daily3-elixir,,0,1
+520722958969208874:
+ - Lvl: 7
+ - Xp: 88
+ - Inv: wooden sword-1-+5.0 DMG,stick-19,minae-21,feather-6,egg-7,leaf-8,spud-8,magic dust-20,wheat-6,badger fur-11,blueberry-5,fluffy hat-1-+5.0 DEF-+3.0 HP,feather blade-1-+5.0 DMG-+1.0 %.CRIT,fluffy hat-1-+5.0 DEF-+3.0 HP,
+ - Weapon: wooden sword-1-+5.0 DMG
+ - Armour: 
+ - Helmet: fluffy hat-1-+5.0 DEF-+3.0 HP
+ - Offhand: 
+ - Ring: 
+ - Hp: 59
+ - Mp: 74
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 61
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-xp,,0,50;daily2-cook,fries,0,9;daily3-crits,,0,19
+194570038630416384:
+ - Lvl: 45
+ - Xp: 102233
+ - Inv: egg-187,apple-170,stick-523,minae-18411,feather-108,blueberry-65,badger fur-138,leaf-184,spud-1268,wheat-1069,scale-1365,truffle spores-1436,blood-7388,magic dust-103164,wolf fur-10553,wolf meat-16882,bat wing-3701,wolf paw-4698,shellfish-426,crab shell-464,sparkly sand-482,ruby ring-1-+11.0 DEF-+10.0 LVL,clam shell-274,pearl thread-78,shiny pearl-183,bear fur-37,silva flower-3934,wisp essence-7537,bear claw-10,honey-6333,wasp wing-10171,wasp stinger-3758,magic fang-16,eye of the wolf-1-+27.0 DEF-+11.200000000000003 %.CRIT-+35.0 %.CRIT.DMG-+7.0 MP-+15.0 LVL,magic tentacle-103,coral sword-1-+179.20000000000007 DMG-+39.60000000000001 %.CRIT-+82.5 %.CRIT.DMG-+33.0 %.SPELL.DMG-+25.0 LVL,wolf head-1-+45.0 DEF-+28.0 HP-+2.8000000000000007 %.CRIT-+14.0 MP-+15.0 LVL,sleeping bag-1,mystic conch-1,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,tentacle chestplate-1-+58.8 DEF-+6.0 DMG-+30.0 HP-+30.0 MP-+25.0 LVL,snake fang-30,fungus-1134,stick sword-1-+1.0 DMG-+0.0 LVL,hero coin-32,small hp potion-12,crab armour-1-+22.0 DEF-+10.0 HP-+10.0 MP-+17.0 LVL,crab armour-1-+22.0 DEF-+10.0 HP-+10.0 MP-+17.0 LVL,apple pie-5,blueberry pie-5,magic branch-25,silva salad-14,silva salad-9,flour-19,flour-10,flour-9,wolf pasty-8,potato salad-6,fish n chips-8,large hp potion-11,large mp potion-15,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,aurum-8282,medium mixed potion-9,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,green elixir-1,knight elixir-2,lucky elixir-1,medium hp potion-2,large mixed potion-4048,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,grass blade-1-+35.0 DMG-+20.0 %.CRIT-+5.0 HP-+20.0 MP-+35.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,
+ - Weapon: coral sword-1-+179.20000000000007 DMG-+39.60000000000001 %.CRIT-+82.5 %.CRIT.DMG-+33.0 %.SPELL.DMG-+25.0 LVL
+ - Armour: tentacle chestplate-1-+58.8 DEF-+6.0 DMG-+30.0 HP-+30.0 MP-+25.0 LVL
+ - Helmet: wolf head-1-+45.0 DEF-+28.0 HP-+2.8000000000000007 %.CRIT-+14.0 MP-+15.0 LVL
+ - Offhand: eye of the wolf-1-+27.0 DEF-+11.200000000000003 %.CRIT-+35.0 %.CRIT.DMG-+7.0 MP-+15.0 LVL
+ - Ring: ruby ring-1-+11.0 DEF-+10.0 LVL
+ - Hp: 186
+ - Mp: 138
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 50523
+ - Spells: poison cloud-5,regeneration-5,sharp arrow-5,life drain-5,warriors rune-5,magic shield-5,fireball-5,super punch-5,earthquake-5,meteor strike-5,icicle-5,mighty protector-5,shield shatter-5,burning rage-5,
+ - EqSpells: 3,life drain,shield shatter,icicle,burning rage,warriors rune
+ - Vars: votes-17,0;quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-xp,,0,55550;daily2-vote,,0,1;daily3-enchanted monster,,0,5
+284996780893143062:
+ - Lvl: 1
+ - Xp: 8
+ - Inv: wooden sword-1-+5.0 DMG-+1.0 LVL,apple-2,stick-4,feather-1,minae-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 31
+ - Mp: 50
+ - Battle: 1-0-scarecrow, , -22,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-vote,,0,1;daily2-xp,,0,0;daily3-monster,,0,39
+880319595985125377:
+ - Lvl: 8
+ - Xp: 27
+ - Inv: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL,minae-57,leather gloves-1-+2.0 HP-+5.0 DMG-+1.0 LVL,wooden shield-1-+10.0 DEF-+1.0 LVL,leather armour-1-+10.0 DEF-+1.0 LVL,leather helmet-1-+5.0 DEF-+1.0 LVL,badger fur-26,blueberry-17,stick-59,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,feather-25,apple-17,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,egg-9,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,scale-2,snake fang-4,small mixed potion-3,wheat-2,leaf-3,spud-1,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leather helmet-1-+5.0 DEF-+1.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: 
+ - Hp: 70
+ - Mp: 78
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 13
+ - Spells: fireball-1,
+ - EqSpells: 1,fireball
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-vote,,0,1;daily2-monster,,0,35;daily3-xp,,0,50
+540982132072382484:
+ - Lvl: 1
+ - Xp: 34
+ - Inv: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL,leaf-3,egg-8,apple-4,stick-8,minae-3,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather-4,
+ - Weapon: feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 43
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 90
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-monster,,0,35;daily2-crits,,0,14;daily3-vote,,0,1
+783375538139693159:
+ - Lvl: 15
+ - Xp: 636
+ - Inv: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL,feather-115,stick-58,egg-124,minae-17526,leather helmet-1-+5.0 DEF-+1.0 LVL,leather gloves-1-+2.0 HP-+5.0 DMG-+1.0 LVL,leather armour-1-+10.0 DEF-+1.0 LVL,wooden shield-1-+10.0 DEF-+1.0 LVL,leaf-65,spud-25,wheat-31,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,scale-33,snake fang-62,truffle spores-30,fungus-31,blood-41,bat wing-16,wolf meat-14,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,apple-127,badger fur-4,blueberry-2,scaled shield-1-+8.0 DEF-+5.0 HP-+5.0 LVL,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,wolf fur-14,wolf paw-4,fungus armour-1-+10.0 DEF-+2.0 DMG-+5.0 LVL,sleeping bag-5,small hp potion-58,hero coin-77,magic dust-157,small mp potion-47,small mixed potion-46,large mp potion-49,large hp potion-48,apple pie-5,blueberry pie-5,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,howling horn-1-+40.0 DMG-+7.8 %.CRIT-+22.1 %.SPELL.DMG-+10.4 HP-+15.0 LVL,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,red elixir-4,potato salad-5,lucky elixir-3,shiny elixir-3,silva salad-10,
+ - Weapon: blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: scaled shield-1-+8.0 DEF-+5.0 HP-+5.0 LVL
+ - Ring: 
+ - Hp: 130
+ - Mp: 104
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Wolf Den II
+ - Aurum: 29432
+ - Spells: fireball-4,magic shield-1,super punch-4,poison cloud-1,
+ - EqSpells: 1,fireball,poison cloud
+ - Vars: votes-41,0;quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-monster,,0,54;daily2-vote,,0,1;daily3-travel,,0,42
+807959741132832788:
+ - Lvl: 45
+ - Xp: 299920
+ - Inv: feather-2,stick-1308,minae-11192,leaf-562,spud-11,wheat-1,magic dust-110724,badger fur-102,blueberry-25,snake fang-32,fungus-15,truffle spores-11,bat wing-2,wolf meat-962,scaled shield-1-+8.0 DEF-+5.0 HP-+5.0 LVL,sparkly sand-16,crab shell-1876,magic fang-557,egg-288,wolf head-1-+40.0 DEF-+26.0 HP-+2.6 %.CRIT-+13.0 MP-+15.0 LVL,aurum-150,hero coin-130,ruby ring-1-+5.0 DEF-+10.0 LVL,ruby ring-1-+5.0 DEF-+10.0 LVL,apple pie-5,blueberry pie-5,eye of the wolf-1-+24.0 DEF-+10.4 %.CRIT-+32.5 %.CRIT.DMG-+6.5 MP-+15.0 LVL,phase wings-1,medium hp potion-52,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,small mixed potion-42,potato salad-5,medium mp potion-88,clam shell-1844,shiny pearl-655,magic tentacle-1477,wasp wing-16,wasp stinger-4,honey-8,silva flower-20,wasp suit-1-+56.0 DEF-+13.0 MP-+13.0 DMG-+30.0 LVL,sleeping bag-1,wisp essence-673,bear fur-4,bear claw-1,coral sword-1-+185.60000000000002 DMG-+40.800000000000004 %.CRIT-+85.0 %.CRIT.DMG-+34.0 %.SPELL.DMG-+25.0 LVL,tentacle chestplate-1-+58.8 DEF-+6.0 DMG-+30.0 HP-+30.0 MP-+25.0 LVL,medium mixed potion-189,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,campfire-1,shiny elixir-21,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,pearl thread-4,wolf fur-467,wolf paw-205,howling horn-1-+25.0 DMG-+6.0 %.CRIT-+17.0 %.SPELL.DMG-+8.0 HP-+15.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,large mp potion-47,silva salad-45,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,small hp potion-3,blood-23,small mp potion-2,magic branch-62,large hp potion-6,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,shellfish-997,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,grass blade-1-+35.0 DMG-+20.0 %.CRIT-+5.0 HP-+20.0 MP-+35.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,emerald lute-1-+38.0 DMG-+20.0 HP-+10.0 %.SPELL.DMG-+35.0 MP-+35.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,spirit flute-1-+28.0 DMG-+10.0 HP-+5.0 %.SPELL.DMG-+30.0 LVL,apple-500,crystal apple-5,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,knight elixir-1,
+ - Weapon: coral sword-1-+185.60000000000002 DMG-+40.800000000000004 %.CRIT-+85.0 %.CRIT.DMG-+34.0 %.SPELL.DMG-+25.0 LVL
+ - Armour: tentacle chestplate-1-+58.8 DEF-+6.0 DMG-+30.0 HP-+30.0 MP-+25.0 LVL
+ - Helmet: wolf head-1-+40.0 DEF-+26.0 HP-+2.6 %.CRIT-+13.0 MP-+15.0 LVL
+ - Offhand: eye of the wolf-1-+24.0 DEF-+10.4 %.CRIT-+32.5 %.CRIT.DMG-+6.5 MP-+15.0 LVL
+ - Ring: inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL
+ - Hp: 376
+ - Mp: 300
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 28530
+ - Spells: fireball-5,regeneration-1,sharp arrow-5,warriors rune-5,icicle-5,burning rage-5,
+ - EqSpells: 2,fireball,sharp arrow,warriors rune,icicle,burning rage
+ - Vars: votes-88,0;quest-2023/6/29/21/23/41,2023/1/17/17/43/3,2023/1/17/17/43/3;daily1-enchanted monster,,0,6;daily2-monster,,0,56;daily3-cook,wolf pasty,0,28;boost-red elixir,2023/6/28/22/6/39,knight elixir,2023/6/28/22/17/47,knight elixir,2023/6/28/22/18/59
+754495478837673994:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL,
+ - Weapon: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Wolf Den II
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-cook,blueberry pie,0,7;daily2-xp,,0,0;daily3-monster,,0,38
+381646462322343938:
+ - Lvl: 4
+ - Xp: 56
+ - Inv: feather-15,egg-99,wooden shield-1-+10.0 DEF-+1.0 LVL,leaf-25,spud-1,wheat-2,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,nature ring-1-+7.0 HP-+3.0 LVL,badger fur-30,blueberry-9,scale-7,snake fang-36,fungus-14,fang knuckledusters-1-+5.0 DMG-+10.0 DEF-+5.0 LVL,truffle spores-12,fungus armour-1-+10.0 DEF-+3.0 DMG-+5.0 LVL,blood-7,apple-10,wolf fur-5,bat wing-1,minae-4,
+ - Weapon: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: nature ring-1-+7.0 HP-+3.0 LVL
+ - Hp: 6
+ - Mp: 67
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 760
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-travel,,0,33;daily2-cook,apple pie,0,8;daily3-monster,,0,39
+257086255966322688:
+ - Lvl: 10
+ - Xp: 186
+ - Inv: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL,egg-21,feather-18,apple-35,stick-54,minae-477,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,leaf-53,spud-27,blueberry-6,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,badger fur-5,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,wheat-17,magic dust-36,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,hero coin-2,small hp potion-5,leather armour-1-+10.0 DEF-+1.0 LVL,wooden shield-1-+10.0 DEF-+1.0 LVL,fungus-1,snake fang-4,scale-4,
+ - Weapon: wooden sword-1-+2.0 DEF-+5.0 DMG-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: 
+ - Hp: 7
+ - Mp: 91
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 353
+ - Spells: 
+ - EqSpells: 1
+ - Vars: votes-2,0;quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-monster,,0,47;daily2-vote,,0,1;daily3-enchanted monster,,0,4
+437283458033909770:
+ - Lvl: 2
+ - Xp: 39
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-5,feather-8,stick-11,minae-8,leaf-11,spud-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 17
+ - Mp: 54
+ - Battle: 1-0-scarecrow,scarecrow,manihot-22,32,26-0,0,1-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-vote,,0,1;daily2-xp,,0,0;daily3-crits,,0,14
+788556917973712906:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-xp,,0,0;daily2-crits,,0,14;daily3-travel,,0,42
+523783787398692876:
+ - Lvl: 1
+ - Xp: 28
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-7,apple-4,stick-9,minae-3,egg-5,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 42
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-travel,,0,33;daily2-xp,,0,0;daily3-vote,,0,1
+869947662626062457:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 49
+ - Mp: 50
+ - Battle: 1-0-crow, , -3,0,0-1,0,1-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-cook,blueberry pie,0,4;daily2-travel,,0,30;daily3-xp,,0,0
+883420733563371541:
+ - Lvl: 5
+ - Xp: 107
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,minae-25,blueberry-13,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,feather-16,stick-40,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,badger fur-18,
+ - Weapon: feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL
+ - Armour: 
+ - Helmet: fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL
+ - Offhand: 
+ - Ring: 
+ - Hp: 77
+ - Mp: 66
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 35
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-monster,,0,29;daily2-vote,,0,1;daily3-cook,apple pie,0,7
+772524736068321341:
+ - Lvl: 3
+ - Xp: 21
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-13,apple-20,stick-39,egg-20,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,minae-9,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 52
+ - Mp: 58
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-vote,,0,1;daily2-xp,,0,0;daily3-cook,apple pie,0,4
+609873651130695693:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-cook,apple pie,0,7;daily2-monster,,0,40;daily3-vote,,0,1
+974459823838076968:
+ - Lvl: 3
+ - Xp: 68
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,badger fur-1,blueberry-1,stick-3,egg-1,feather-1,apple-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 0
+ - Mp: 58
+ - Battle: 1-0-badger,badger,badger-19,28,28-0,0,0-0:0,0:0,0:0-3-
+ - Area: Forest Outskirts
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-crits,,0,16;daily2-xp,,0,0;daily3-cook,potato salad,0,7
+323212201047490582:
+ - Lvl: 1
+ - Xp: 29
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,apple-4,stick-6,minae-3,egg-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 28
+ - Mp: 50
+ - Battle: 1-0-grizzly bear, , -99,0,0-0,1,0-0:0,0:0,0:0-0-
+ - Area: Forest I
+ - Aurum: 90
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-monster,,0,37;daily2-cook,apple pie,0,6;daily3-xp,,0,0
+321233233972822027:
+ - Lvl: 9
+ - Xp: 108
+ - Inv: wooden shield-1-+10.0 DEF-+1.0 LVL,leather armour-1-+10.0 DEF-+1.0 LVL,magic dust-2,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf-15,wheat-3,minae-264,snake fang-11,fungus-4,truffle spores-6,scale-6,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,blood-1,wolf meat-1,hero coin-1,apple-12,small hp potion-4,badger fur-3,blueberry-2,feather-2,stick-2,
+ - Weapon: fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: 
+ - Hp: 98
+ - Mp: 87
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 612
+ - Spells: super punch-1,
+ - EqSpells: 1,super punch
+ - Vars: votes-1,0;quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-cook,apple pie,0,10;daily2-vote,,0,1;daily3-xp,,0,50
+326938968786731016:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-xp,,0,0;daily2-cook,blueberry pie,0,6;daily3-crits,,0,14
+650702236770369548:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-monster,,0,33;daily2-vote,,0,1;daily3-cook,apple pie,0,8
+687700436957921431:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Boat 1
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-travel,,0,45;daily2-xp,,0,0;daily3-vote,,0,1
+642004164502618114:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-xp,,0,0;daily2-travel,,0,33;daily3-cook,apple pie,0,6
+522523670133080081:
+ - Lvl: 1
+ - Xp: 10
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,leaf-1,spud-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 27
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 75
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-crits,,0,14;daily2-vote,,0,1;daily3-monster,,0,39
+433262240674742272:
+ - Lvl: 1
+ - Xp: 29
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-4,apple-5,stick-7,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather-1,minae-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 38
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-vote,,0,1;daily2-monster,,0,34;daily3-cook,blueberry pie,0,5
+427493969497292800:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 48
+ - Mp: 50
+ - Battle: 1-0-crow,crow, -10,4,0-0,1,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-cook,apple pie,0,6;daily2-xp,,0,0;daily3-travel,,0,39
+482903739531788288:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-travel,,0,30;daily2-crits,,0,14;daily3-monster,,0,37
+452818806918873128:
+ - Lvl: 2
+ - Xp: 7
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-4,stick-10,minae-3,egg-3,apple-4,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 56
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-cook,apple pie,0,6;daily2-crits,,0,15;daily3-monster,,0,39
+532694099674005547:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-crits,,0,14;daily2-monster,,0,36;daily3-xp,,0,0
+459372124633563137:
+ - Lvl: 2
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,apple-9,feather-7,minae-6,leather armour-1-+10.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 56
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 23
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-cook,blueberry pie,0,7;daily2-travel,,0,30;daily3-vote,,0,1
+670103415136714773:
+ - Lvl: 19
+ - Xp: 731
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,apple-3,stick-74,minae-222,egg-63,hero coin-3,leaf-58,wheat-8,leaf crown-1-+14.0 DEF-+6.0 MP-+2.0 LVL,magic dust-199,fungus-15,spud-6,scale-7,blood-35,bat wing-7,wolf fur-73,wolf meat-74,wolfskin drums-1-+12.0 DMG-+5.0 %.CRIT-+15.0 %.CRIT.DMG-+10.0 LVL,fungus armour-1-+10.0 DEF-+2.0 DMG-+5.0 LVL,scaled shield-1-+9.6 DEF-+5.5 HP-+5.0 LVL,nature ring-1-+9.8 HP-+3.0 LVL,wolf paw-19,fur tunic-1-+17.0 DEF-+10.0 HP-+10.0 LVL,small hp potion-1,fur tunic-1-+17.0 DEF-+10.0 HP-+10.0 LVL,medium hp potion-1,fur tunic-1-+17.0 DEF-+10.0 HP-+10.0 LVL,
+ - Weapon: wolfskin drums-1-+12.0 DMG-+5.0 %.CRIT-+15.0 %.CRIT.DMG-+10.0 LVL
+ - Armour: fungus armour-1-+10.0 DEF-+2.0 DMG-+5.0 LVL
+ - Helmet: leaf crown-1-+14.0 DEF-+6.0 MP-+2.0 LVL
+ - Offhand: scaled shield-1-+9.6 DEF-+5.5 HP-+5.0 LVL
+ - Ring: nature ring-1-+9.8 HP-+3.0 LVL
+ - Hp: 173
+ - Mp: 128
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 7
+ - Spells: super punch-2,
+ - EqSpells: 2,super punch
+ - Vars: votes-2,0;quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-monster,,0,31;daily2-cook,seafood kebab,0,7;daily3-travel,,0,30
+946289213219958794:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-vote,,0,1;daily2-monster,,0,32;daily3-cook,blueberry pie,0,6
+638397697363279932:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/16/23/13/18,2023/1/16/23/13/18;daily1-cook,apple pie,0,5;daily2-crits,,0,14;daily3-travel,,0,30
+604672769036124161:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/17/5/34/38,2023/1/17/5/34/38;daily1-crits,,0,14;daily2-monster,,0,37;daily3-travel,,0,36
+837757017199738921:
+ - Lvl: 18
+ - Xp: 882
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,hero coin-12,minae-1634,apple-9,egg-109,stick-217,leaf-82,spud-40,feather-90,badger fur-17,wheat-33,wooden shield-1-+10.0 DEF-+1.0 LVL,leather gloves-1-+2.0 HP-+5.0 DMG-+1.0 LVL,magic dust-32,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,apple pie-2,red elixir-1,scale-26,snake fang-53,truffle spores-36,fungus-29,fang knuckledusters-1-+12.0 DMG-+5.5 DEF-+5.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,blueberry pie-1,scaled shield-1-+8.0 DEF-+5.0 HP-+5.0 LVL,fungus armour-1-+10.0 DEF-+2.0 DMG-+5.0 LVL,fungus armour-1-+10.0 DEF-+2.0 DMG-+5.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,potato salad-0,bat wing-9,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,blood-44,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,phase wings-1,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,wolf fur-22,wolf pasty-3,small mp potion-1,wolf paw-3,magic fang-4,wolf meat-4,blood staff-1-+12.0 DMG-+10.0 %.SPELL.DMG-+10.0 LVL,
+ - Weapon: fang knuckledusters-1-+12.0 DMG-+5.5 DEF-+5.0 LVL
+ - Armour: fungus armour-1-+10.0 DEF-+2.0 DMG-+5.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: scaled shield-1-+8.0 DEF-+5.0 HP-+5.0 LVL
+ - Ring: 
+ - Hp: 85
+ - Mp: 12
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Wolf Den II
+ - Aurum: 662
+ - Spells: super punch-4,burning rage-1,
+ - EqSpells: 1,super punch,burning rage
+ - Vars: quest-2023/6/29/21/23/41,2023/1/18/3/37/50,2023/1/18/3/37/50;daily1-vote,,0,1;daily2-crits,,0,28;daily3-enchanted monster,,0,4;votes-7,0
+733227735106715728:
+ - Lvl: 4
+ - Xp: 58
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,stick-22,egg-12,apple-9,feather-7,minae-12,badger fur-8,blueberry-3,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 51
+ - Mp: 62
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/1/18/3/38/13,2023/1/18/3/38/13;daily1-cook,fries,0,6;daily2-monster,,0,41;daily3-travel,,0,30
+413787467171364875:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/18/11/5/43,2023/1/18/11/5/43;daily1-vote,,0,1;daily2-travel,,0,39;daily3-crits,,0,14
+731131992007114812:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/18/15/59/20,2023/1/18/15/59/20;daily1-monster,,0,26;daily2-travel,,0,30;daily3-crits,,0,14
+332942331655225376:
+ - Lvl: 1
+ - Xp: 16
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-2,apple-3,stick-3,minae-1,egg-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 44
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/18/16/1/47,2023/1/18/16/1/47;daily1-crits,,0,14;daily2-cook,apple pie,0,3;daily3-xp,,0,0
+964907666247929937:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Beach I
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/18/16/2/19,2023/1/18/16/2/19;daily1-xp,,0,0;daily2-cook,blueberry pie,0,3;daily3-monster,,0,34
+437721980167520276:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/18/22/49/56,2023/1/18/22/49/56;daily1-monster,,0,26;daily2-cook,apple pie,0,3;daily3-xp,,0,0
+662343606446850061:
+ - Lvl: 1
+ - Xp: 4
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,apple-1,stick-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 49
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest I
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/19/2/14/1,2023/1/19/2/14/1;daily1-crits,,0,14;daily2-travel,,0,30;daily3-xp,,0,0
+929154938439876649:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 1-0-crow, , -0,0,0-1,1,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/19/2/42/41,2023/1/19/2/42/41;daily1-vote,,0,1;daily2-travel,,0,27;daily3-cook,blueberry pie,0,4
+471189497867141131:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/19/12/13/38,2023/1/19/12/13/38;daily1-travel,,0,21;daily2-monster,,0,31;daily3-vote,,0,1
+986669535937593434:
+ - Lvl: 12
+ - Xp: 498
+ - Inv: leaf-36,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,magic dust-15,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,joke book-1-+10.0 %.SPELL.DMG-+1.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,sparking wand-1-+8.0 DMG-+4.0 %.CRIT-+3.0 LVL,apple-4,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,scale-7,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,minae-97,wheat-12,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,spud-23,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,egg-3,stick-10,badger fur-12,blueberry-7,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,feather-2,fungus-8,truffle spores-3,snake fang-12,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,sparking wand-1-+8.0 DMG-+4.0 %.CRIT-+3.0 LVL,blood-3,bat wing-4,
+ - Weapon: sparking wand-1-+8.0 DMG-+4.0 %.CRIT-+3.0 LVL
+ - Armour: 
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: joke book-1-+10.0 %.SPELL.DMG-+1.0 LVL
+ - Ring: 
+ - Hp: 116
+ - Mp: 99
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 1415
+ - Spells: fireball-1,magic shield-1,regeneration-1,
+ - EqSpells: 1,fireball,regeneration
+ - Vars: quest-2023/6/29/21/23/41,2023/1/19/14/4/10,2023/1/19/14/4/10;daily1-cook,potato salad,0,11;daily2-crits,,0,22;daily3-travel,,0,33
+675809051484880906:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/20/21/31/28,2023/1/20/21/31/28;daily1-monster,,0,33;daily2-travel,,0,45;daily3-cook,apple pie,0,6
+1053427774121070672:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/20/21/31/30,2023/1/20/21/31/30;daily1-xp,,0,0;daily2-travel,,0,27;daily3-cook,blueberry pie,0,8
+163529279903236096:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/21/12/30/53,2023/1/21/12/30/53;daily1-xp,,0,0;daily2-cook,blueberry pie,0,4;daily3-crits,,0,14
+719463118983528488:
+ - Lvl: 1
+ - Xp: 51
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,badger fur-1,blueberry-3,stick-4,minae-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 6
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/1/21/12/31/21,2023/1/21/12/31/21;daily1-monster,,0,27;daily2-crits,,0,14;daily3-travel,,0,21
+995950121231593512:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 90
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/21/12/31/28,2023/1/21/12/31/28;daily1-xp,,0,0;daily2-vote,,0,1;daily3-travel,,0,30
+402606397763878923:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/21/15/20/7,2023/1/21/15/20/7;daily1-xp,,0,0;daily2-vote,,0,1;daily3-monster,,0,34
+268579895624466432:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/21/20/54/28,2023/1/21/20/54/28;daily1-xp,,0,0;daily2-travel,,0,33;daily3-vote,,0,1
+716251904576978994:
+ - Lvl: 2
+ - Xp: 42
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-8,feather-9,stick-21,minae-31,apple-23,hero coin-1,small hp potion-5,leaf-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 24
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 115
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/22/0/37/36,2023/1/22/0/37/36;daily1-xp,,0,0;daily2-travel,,0,21;daily3-crits,,0,15;votes-1,0
+972578683086864535:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/22/22/3/55,2023/1/22/22/3/55;daily1-monster,,0,28;daily2-travel,,0,24;daily3-cook,apple pie,0,8
+876947856634818581:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/23/4/2/33,2023/1/23/4/2/33;daily1-cook,blueberry pie,0,7;daily2-crits,,0,14;daily3-monster,,0,36
+455404675005415444:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/23/13/42/9,2023/1/23/13/42/9;daily1-cook,blueberry pie,0,7;daily2-vote,,0,1;daily3-xp,,0,0
+687951040645169264:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/23/18/51/12,2023/1/23/18/51/12;daily1-monster,,0,37;daily2-cook,apple pie,0,5;daily3-vote,,0,1
+696084889409421383:
+ - Lvl: 3
+ - Xp: 12
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,scale-2,snake fang-5,minae-87,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,leaf-1,spud-0,stick-19,egg-4,apple-17,feather-11,leather armour-1-+10.0 DEF-+1.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,wheat-4,hero coin-4,small hp potion-5,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: 
+ - Ring: 
+ - Hp: 40
+ - Mp: 63
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 160
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/24/13/41/43,2023/1/24/13/41/43;daily1-travel,,0,39;daily2-xp,,0,0;daily3-cook,apple pie,0,8;votes-1,0
+878862304647708722:
+ - Lvl: 4
+ - Xp: 74
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,hero coin-2,minae-77,apple-32,small hp potion-3,mage elixir-1,wooden shield-1-+10.0 DEF-+1.0 LVL,egg-14,feather-18,stick-43,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,badger fur-14,blueberry-9,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: 
+ - Hp: 51
+ - Mp: 62
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Boat 1
+ - Aurum: 30
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/1/24/23/17/26,2023/1/24/23/17/26;daily1-cook,potato salad,0,5;daily2-travel,,0,21;daily3-crits,,0,17;votes-2,0
+1056374016669134848:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/26/19/17/44,2023/1/26/19/17/44;daily1-xp,,0,0;daily2-cook,apple pie,0,8;daily3-vote,,0,1
+942458945124073472:
+ - Lvl: 1
+ - Xp: 41
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-9,apple-5,stick-9,egg-9,minae-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 90
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/26/19/17/59,2023/1/26/19/17/59;daily1-crits,,0,14;daily2-xp,,0,0;daily3-travel,,0,30
+543120959687622708:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/1/26/20/59/45,2023/1/26/20/59/45;daily1-xp,,0,0;daily2-monster,,0,38;daily3-cook,blueberry pie,0,8
+979840878879330326:
+ - Lvl: 1
+ - Xp: 28
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-3,feather-6,apple-4,stick-11,minae-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 42
+ - Mp: 50
+ - Battle: 1-0-serpens, , -30,0,0-3,5,4-0:0,0:0,0:0-0-
+ - Area: Wolf Den I
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/26/21/31/55,2023/1/26/21/31/55;daily1-vote,,0,1;daily2-xp,,0,0;daily3-monster,,0,39
+223205257218359317:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: ¤
+ - Vars: quest-2023/6/29/21/23/41,2023/1/29/9/5/31,2023/1/29/9/5/31;daily1-crits,,0,14;daily2-cook,apple pie,0,3;daily3-xp,,0,0
+994526003433054219:
+ - Lvl: 2
+ - Xp: 65
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,hero coin-1,minae-39,apple-27,small hp potion-5,stick-25,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,egg-11,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather-6,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 30
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 133
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/29/12/54/0,2023/1/29/12/54/0;daily1-travel,,0,27;daily2-crits,,0,15;daily3-vote,,0,1;votes-1,0
+857129458758058015:
+ - Lvl: 1
+ - Xp: 34
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,badger fur-4,blueberry-1,stick-4,minae-1,apple-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 90
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/1/29/13/59/20,2023/1/29/13/59/20;daily1-vote,,0,1;daily2-monster,,0,35;daily3-cook,blueberry pie,0,8
+345888835839721473:
+ - Lvl: 1
+ - Xp: 4
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-2,stick-2,minae-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 49
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/29/16/1/26,2023/1/29/16/1/26;daily1-monster,,0,30;daily2-xp,,0,0;daily3-crits,,0,14
+408530595266691093:
+ - Lvl: 2
+ - Xp: 24
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-12,feather-13,apple-12,stick-23,minae-6,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,badger fur-4,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 43
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/1/30/19/21/21,2023/1/30/19/21/21;daily1-travel,,0,45;daily2-vote,,0,1;daily3-cook,blueberry pie,0,7
+378355207547125781:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Witch Hut
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/2/1/17/55/50,2023/2/1/17/55/50;daily1-cook,blueberry pie,0,8;daily2-monster,,0,27;daily3-travel,,0,45
+941500940165468290:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 2
+ - Mp: 50
+ - Battle: 1-0-crab, , -80,0,0-1,0,1-0:0,0:0,0:0-0-
+ - Area: Beach II
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/2/1/30/14,2023/2/2/1/30/14;daily1-monster,,0,32;daily2-xp,,0,0;daily3-cook,apple pie,0,3
+385839615174770693:
+ - Lvl: 1
+ - Xp: 16
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-2,stick-5,minae-2,feather-2,apple-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 45
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/3/5/21/37,2023/2/3/5/21/37;daily1-monster,,0,32;daily2-vote,,0,1;daily3-cook,apple pie,0,5
+952271396963246110:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/2/3/23/48/19,2023/2/3/23/48/19;daily1-xp,,0,0;daily2-monster,,0,36;daily3-travel,,0,45
+599850999959781376:
+ - Lvl: 1
+ - Xp: 12
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-1,apple-2,stick-4,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 46
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/2/7/1/57/31,2023/2/7/1/57/31;daily1-cook,blueberry pie,0,5;daily2-crits,,0,14;daily3-travel,,0,39
+589258393613631512:
+ - Lvl: 2
+ - Xp: 34
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-16,apple-11,stick-26,egg-7,minae-8,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 47
+ - Mp: 54
+ - Battle: 1-0-crow, , -10,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/8/23/59/45,2023/2/8/23/59/45;daily1-monster,,0,40;daily2-xp,,0,0;daily3-vote,,0,1
+958384575426486382:
+ - Lvl: 1
+ - Xp: 25
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-3,feather-5,stick-6,apple-2,minae-3,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 39
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/11/7/42/17,2023/2/11/7/42/17;daily1-xp,,0,0;daily2-cook,apple pie,0,4;daily3-monster,,0,39
+763664738814394379:
+ - Lvl: 6
+ - Xp: 101
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-55,feather-70,minae-105,hero coin-3,small hp potion-5,apple-24,badger fur-18,blueberry-9,leaf-3,spud-1,wheat-2,stick-102,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL
+ - Offhand: 
+ - Ring: 
+ - Hp: 38
+ - Mp: 70
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest Outskirts
+ - Aurum: 434
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/15/11/40/20,2023/2/15/11/40/20;daily1-travel,,0,33;daily2-crits,,0,18;daily3-xp,,0,50;votes-1,0
+954963264322801774:
+ - Lvl: 9
+ - Xp: 360
+ - Inv: stick-131,feather-67,minae-143,egg-50,hero coin-2,small hp potion-3,wheat-18,leaf-11,spud-5,badger fur-19,blueberry-6,snake fang-30,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,scale-9,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,apple-6,fungus-8,fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL,
+ - Weapon: fang knuckledusters-1-+10.0 DMG-+5.0 DEF-+5.0 LVL
+ - Armour: 
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: 
+ - Ring: 
+ - Hp: 98
+ - Mp: 87
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 570
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/15/11/40/33,2023/2/15/11/40/33;daily1-xp,,0,50;daily2-cook,fries,0,11;daily3-crits,,0,20;votes-1,0
+798588329288400917:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/2/16/1/45/7,2023/2/16/1/45/7;daily1-cook,blueberry pie,0,6;daily2-crits,,0,14;daily3-xp,,0,0
+586864381619470336:
+ - Lvl: 1
+ - Xp: 4
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-1,apple-1,stick-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 48
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/18/6/58/36,2023/2/18/6/58/36;daily1-xp,,0,0;daily2-cook,apple pie,0,7;daily3-crits,,0,14
+883319480225235005:
+ - Lvl: 1
+ - Xp: 4
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 90
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/18/13/36/20,2023/2/18/13/36/20;daily1-monster,,0,32;daily2-travel,,0,33;daily3-vote,,0,1
+1074694488095731735:
+ - Lvl: 1
+ - Xp: 37
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-7,apple-5,stick-11,feather-5,minae-2,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 90
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/2/19/3/20/36,2023/2/19/3/20/36;daily1-crits,,0,14;daily2-cook,blueberry pie,0,6;daily3-travel,,0,33
+839157843332562944:
+ - Lvl: 1
+ - Xp: 44
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-7,feather-6,apple-4,stick-8,minae-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 35
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/19/4/36/48,2023/2/19/4/36/48;daily1-travel,,0,33;daily2-crits,,0,14;daily3-vote,,0,1
+576773011894697994:
+ - Lvl: 1
+ - Xp: 7
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 49
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/2/19/4/37/16,2023/2/19/4/37/16;daily1-travel,,0,30;daily2-vote,,0,1;daily3-xp,,0,0
+994799220122988569:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/2/19/10/25/49,2023/2/19/10/25/49;daily1-xp,,0,0;daily2-crits,,0,14;daily3-travel,,0,42
+538753637539905576:
+ - Lvl: 1
+ - Xp: 10
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,leaf-3,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 30
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 110
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/20/11/3/57,2023/2/20/11/3/57;daily1-monster,,0,28;daily2-crits,,0,14;daily3-travel,,0,39
+774729976401887290:
+ - Lvl: 6
+ - Xp: 236
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-59,apple-18,stick-134,minae-5,egg-62,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,leather gloves-1-+3.5999999999999996 HP-+7.0 DMG-+1.0 LVL,hero coin-9,small hp potion-5,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,leather helmet-1-+5.0 DEF-+1.0 LVL,wooden shield-1-+10.0 DEF-+1.0 LVL,leaf-25,spud-14,fungus-1,magic dust-19,wheat-7,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,
+ - Weapon: leather gloves-1-+3.5999999999999996 HP-+7.0 DMG-+1.0 LVL
+ - Armour: 
+ - Helmet: leather helmet-1-+5.0 DEF-+1.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: 
+ - Hp: 60
+ - Mp: 70
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 14
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/21/13/56/12,2023/2/21/13/56/12;daily1-travel,,0,39;daily2-cook,potato salad,0,7;daily3-xp,,0,50;votes-4,0
+641748652880166934:
+ - Lvl: 10
+ - Xp: 34
+ - Inv: egg-147,stick-313,minae-2387,feather-137,apple-87,leather armour-1-+10.0 DEF-+1.0 LVL,wooden shield-1-+10.0 DEF-+1.0 LVL,leather gloves-1-+2.0 HP-+5.0 DMG-+1.0 LVL,leaf-67,spud-34,magic dust-106,wheat-11,hero coin-17,small hp potion-5,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,apple pie-10,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,red elixir-1,potato salad-5,
+ - Weapon: leather gloves-1-+2.0 HP-+5.0 DMG-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: 
+ - Hp: 92
+ - Mp: 91
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 6379
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/2/21/13/56/22,2023/2/21/13/56/22;daily1-enchanted monster,,0,4;daily2-spells,,0,24;daily3-monster,,0,48;votes-10,0
+1063607642930548848:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Wolf Den III
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: ¤
+ - Vars: quest-2023/6/29/21/23/41,2023/2/23/2/4/0,2023/2/23/2/4/0;daily1-cook,apple pie,0,5;daily2-vote,,0,1;daily3-travel,,0,30
+1069008503571746846:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/2/24/13/28/15,2023/2/24/13/28/15;daily1-monster,,0,28;daily2-crits,,0,14;daily3-travel,,0,45
+1066645211314409594:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 2-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/2/24/16/12/46,2023/2/24/16/12/46;daily1-monster,,0,27;daily2-travel,,0,27;daily3-cook,apple pie,0,7
+692676594736693300:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 2-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/2/24/16/25/2,2023/2/24/16/25/2;daily1-travel,,0,30;daily2-crits,,0,14;daily3-monster,,0,31
+390579810004631552:
+ - Lvl: 2
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-5,apple-8,stick-20,minae-8,egg-5,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 56
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/2/24/18/43/12,2023/2/24/18/43/12;daily1-monster,,0,38;daily2-cook,apple pie,0,3;daily3-crits,,0,15
+1072650043519148032:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/2/25/23/38/44,2023/2/25/23/38/44;daily1-crits,,0,14;daily2-vote,,0,1;daily3-xp,,0,0
+801906105193857024:
+ - Lvl: 2
+ - Xp: 72
+ - Inv: egg-6,apple-5,stick-13,feather-6,badger fur-5,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,minae-5,blueberry-1,
+ - Weapon: feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 56
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 35
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/2/27/18/57/32,2023/2/27/18/57/32;daily1-xp,,0,0;daily2-monster,,0,38;daily3-vote,,0,1
+1044816884580761701:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: ¤
+ - Vars: quest-2023/6/29/21/23/41,2023/2/27/19/7/44,2023/2/27/19/7/44;daily1-vote,,0,1;daily2-crits,,0,14;daily3-xp,,0,0
+789336731220312064:
+ - Lvl: 1
+ - Xp: 4
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-1,feather-2,apple-1,stick-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 49
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/3/2/2/13/57,2023/3/2/2/13/57;daily1-vote,,0,1;daily2-travel,,0,24;daily3-crits,,0,14
+902010845725335612:
+ - Lvl: 3
+ - Xp: 42
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-20,apple-14,stick-42,minae-14,feather-17,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 43
+ - Mp: 58
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/3/2/6/53/39,2023/3/2/6/53/39;daily1-xp,,0,0;daily2-vote,,0,1;daily3-monster,,0,29
+894783458625335386:
+ - Lvl: 2
+ - Xp: 14
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,apple-21,stick-16,feather-7,minae-25,egg-5,hero coin-2,small hp potion-5,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 52
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 160
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/3/2/6/54/33,2023/3/2/6/54/33;daily1-cook,blueberry pie,0,5;daily2-travel,,0,45;daily3-monster,,0,25;votes-1,0
+1066416080043655200:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/3/3/2/41/43,2023/3/3/2/41/43;daily1-crits,,0,14;daily2-vote,,0,1;daily3-monster,,0,32
+620103198832590869:
+ - Lvl: 1
+ - Xp: 25
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-3,apple-4,stick-7,minae-1,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,egg-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 35
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/3/5/18/57/35,2023/3/5/18/57/35;daily1-xp,,0,0;daily2-travel,,0,33;daily3-monster,,0,28
+687951040645169264:
+ - Lvl: 2
+ - Xp: 52
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-3,stick-11,minae-11,feather-2,badger fur-3,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,leaf-8,spud-3,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL
+ - Offhand: 
+ - Ring: 
+ - Hp: 20
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Wolf Den I
+ - Aurum: 81
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/3/6/15/33/36,2023/3/6/15/33/36;daily1-vote,,0,1;daily2-monster,,0,41;daily3-travel,,0,39
+664189257195323422:
+ - Lvl: 3
+ - Xp: 34
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,stick-15,apple-521,minae-115,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather-8,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,egg-7,hero coin-3,small hp potion-5,wheat-1,crystal apple-5,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 56
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 266
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/3/6/19/46/48,2023/3/6/19/46/48;daily1-monster,,0,36;daily2-cook,apple pie,0,6;daily3-xp,,0,0;votes-2,0
+450185871132721156:
+ - Lvl: 1
+ - Xp: 29
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-6,apple-5,stick-8,minae-4,feather-2,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 39
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/3/7/19/59/35,2023/3/7/19/59/35;daily1-travel,,0,21;daily2-monster,,0,31;daily3-crits,,0,14
+1060230320688988292:
+ - Lvl: 1
+ - Xp: 37
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-5,stick-10,minae-5,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,feather-6,apple-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 31
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/3/14/3/9/51,2023/3/14/3/9/51;daily1-cook,apple pie,0,4;daily2-travel,,0,33;daily3-xp,,0,0
+1071334849786413106:
+ - Lvl: 10
+ - Xp: 285
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,feather-3,stick-73,egg-48,minae-700,hero coin-4,small hp potion-3,leather armour-1-+10.0 DEF-+1.0 LVL,leather helmet-1-+5.0 DEF-+1.0 LVL,wooden shield-1-+10.0 DEF-+1.0 LVL,wheat-30,leaf-74,spud-37,magic dust-37,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,fungus-2,snake fang-6,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: 
+ - Hp: 22
+ - Mp: 91
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Wolf Den I
+ - Aurum: 2355
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/3/17/0/39/31,2023/3/17/0/39/31;daily1-spells,,0,24;daily2-cook,wolf pasty,0,12;daily3-crits,,0,22;votes-4,0
+563897884530049024:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,hero coin-6,minae-49,apple-15,small hp potion-5,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 220
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/3/17/0/55/6,2023/3/17/0/55/6;daily1-monster,,0,32;daily2-xp,,0,0;daily3-travel,,0,36;votes-2,0
+1036444227929899078:
+ - Lvl: 5
+ - Xp: 90
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-46,feather-57,stick-107,apple-23,minae-152,badger fur-9,blueberry-8,hero coin-1,small hp potion-5,wooden shield-1-+10.0 DEF-+1.0 LVL,leather armour-1-+10.0 DEF-+1.0 LVL,leather helmet-1-+5.0 DEF-+1.0 LVL,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leather helmet-1-+5.0 DEF-+1.0 LVL
+ - Offhand: wooden shield-1-+10.0 DEF-+1.0 LVL
+ - Ring: 
+ - Hp: 74
+ - Mp: 66
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 492
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/3/17/16/47/11,2023/3/17/16/47/11;daily1-travel,,0,21;daily2-vote,,0,1;daily3-cook,potato salad,0,6;votes-1,0
+817693694840537128:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/3/17/22/27/39,2023/3/17/22/27/39;daily1-crits,,0,14;daily2-cook,blueberry pie,0,6;daily3-travel,,0,39
+358652364888211458:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/3/19/17/53/55,2023/3/19/17/53/55;daily1-crits,,0,14;daily2-vote,,0,1;daily3-monster,,0,36
+802525605715116032:
+ - Lvl: 1
+ - Xp: 10
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,leaf-3,minae-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 81
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/4/1/22/52/29,2023/4/1/22/52/29;daily1-vote,,0,1;daily2-xp,,0,0;daily3-cook,apple pie,0,8
+841270841589235722:
+ - Lvl: 1
+ - Xp: 24
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,wheat-2,minae-4,leaf-5,spud-3,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 73
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/4/1/22/52/32,2023/4/1/22/52/32;daily1-crits,,0,14;daily2-xp,,0,0;daily3-cook,blueberry pie,0,6
+378638203135066112:
+ - Lvl: 2
+ - Xp: 53
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,hero coin-3,minae-56,apple-14,small hp potion-3,leather armour-1-+10.0 DEF-+1.0 LVL,badger fur-3,blueberry-2,stick-1,fungus-1,leaf-2,spud-2,wheat-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 56
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Farm
+ - Aurum: 102
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/4/2/15/29/48,2023/4/2/15/29/48;daily1-travel,,0,30;daily2-xp,,0,0;daily3-crits,,0,15;votes-2,0
+690627169201684550:
+ - Lvl: 2
+ - Xp: 53
+ - Inv: hero coin-3,minae-24,apple-17,small hp potion-4,wooden wand-1-+6.0 DMG-+1.0 LVL,egg-4,feather-4,stick-3,leaf-3,
+ - Weapon: wooden wand-1-+6.0 DMG-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 40
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 200
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/4/2/15/30/7,2023/4/2/15/30/7;daily1-travel,,0,42;daily2-cook,blueberry pie,0,4;daily3-crits,,0,15;votes-2,0
+962778245416247346:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 1-0-crow, , -10,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/4/2/16/15/21,2023/4/2/16/15/21;daily1-crits,,0,14;daily2-monster,,0,32;daily3-travel,,0,36
+871680306204262460:
+ - Lvl: 2
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,stick-6,minae-3,leather armour-1-+10.0 DEF-+1.0 LVL,egg-2,feather-1,apple-2,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,badger fur-3,blueberry-1,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL
+ - Offhand: 
+ - Ring: 
+ - Hp: 56
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 2
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/4/18/22/25/18,2023/4/18/22/25/18;daily1-travel,,0,33;daily2-monster,,0,32;daily3-crits,,0,15
+1026141391656591452:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/4/21/23/27/37,2023/4/21/23/27/37;daily1-crits,,0,14;daily2-monster,,0,30;daily3-xp,,0,0
+448234285498105857:
+ - Lvl: 10
+ - Xp: 0
+ - Inv: hero coin-1,minae-149,apple-29,small hp potion-1,joke book-1-+10.0 %.SPELL.DMG-+1.0 LVL,leather armour-1-+10.0 DEF-+1.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,sparking wand-1-+8.0 DMG-+4.0 %.CRIT-+3.0 LVL,nature ring-1-+7.0 HP-+3.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,magic dust-28,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,snake fang-2,fungus-7,
+ - Weapon: sparking wand-1-+8.0 DMG-+4.0 %.CRIT-+3.0 LVL
+ - Armour: leather armour-1-+10.0 DEF-+1.0 LVL
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: joke book-1-+10.0 %.SPELL.DMG-+1.0 LVL
+ - Ring: nature ring-1-+7.0 HP-+3.0 LVL
+ - Hp: 111
+ - Mp: 91
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 635
+ - Spells: fireball-1,
+ - EqSpells: 1,fireball
+ - Vars: quest-2023/6/29/21/23/41,2023/5/1/13/22/24,2023/5/1/13/22/24;daily1-monster,,0,50;daily2-vote,,0,1;daily3-spells,,0,24;votes-1,0
+965658345455370260:
+ - Lvl: 2
+ - Xp: 38
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,stick-22,egg-5,feather-13,apple-8,minae-6,badger fur-1,blueberry-1,leaf-400,leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: leaf crown-1-+10.0 DEF-+5.0 MP-+2.0 LVL
+ - Offhand: 
+ - Ring: 
+ - Hp: 56
+ - Mp: 59
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Krakow's Cave
+ - Aurum: 65
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/5/6/20/23/42,2023/5/6/20/23/42;daily1-monster,,0,33;daily2-travel,,0,21;daily3-xp,,0,0
+357197151731843072:
+ - Lvl: 2
+ - Xp: 85
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-9,feather-9,stick-17,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,apple-9,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,leaf-2,spud-2,minae-7,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,badger fur-6,blueberry-2,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: fluffy hat-1-+5.0 DEF-+3.0 HP-+1.0 LVL
+ - Offhand: 
+ - Ring: 
+ - Hp: 1
+ - Mp: 54
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 90
+ - Spells: 
+ - EqSpells: 1
+ - Vars: quest-2023/6/29/21/23/41,2023/5/6/23/54/31,2023/5/6/23/54/31;daily1-monster,,0,27;daily2-crits,,0,15;daily3-cook,blueberry pie,0,4
+994105855198904380:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/5/11/4/5/11,2023/5/11/4/5/11;daily1-monster,,0,34;daily2-xp,,0,0;daily3-cook,apple pie,0,8
+558893017629720597:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/5/16/11/26/49,2023/5/16/11/26/49;daily1-travel,,0,42;daily2-monster,,0,35;daily3-xp,,0,0
+958867741446647838:
+ - Lvl: 3
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,hero coin-6,minae-73,apple-24,small hp potion-5,egg-12,stick-14,feather-12,feather blade-1-+5.0 DMG-+1.0 %.CRIT-+1.0 LVL,blueberry-2,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 62
+ - Mp: 58
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 189
+ - Spells: 
+ - EqSpells: 3
+ - Vars: quest-2023/6/29/21/23/41,2023/5/27/19/9/46,2023/5/27/19/9/46;daily1-cook,potato salad,0,4;daily2-vote,,0,1;daily3-crits,,0,15;votes-2,0
+440519082517856286:
+ - Lvl: 1
+ - Xp: 8
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,egg-2,apple-2,stick-2,minae-1,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 46
+ - Mp: 50
+ - Battle: 1-0-crow,crow, -10,4,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/5/28/16/41/32,2023/5/28/16/41/32;daily1-crits,,0,14;daily2-monster,,0,29;daily3-vote,,0,1
+203888675065430017:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/6/3/20/2/32,2023/6/3/20/2/32;daily1-travel,,0,27;daily2-cook,blueberry pie,0,4;daily3-vote,,0,1
+315727065074892800:
+ - Lvl: 29
+ - Xp: 0
+ - Inv: egg-30,stick-53,feather-35,minae-4517,leaf-65,wheat-26,hero coin-37,magic dust-2826,fungus-27,snake fang-1,wolf fur-39,blood-57,wolf paw-90,ruby ring-1-+13.0 DEF-+10.0 LVL,crab shell-181,sparkly sand-9,magic fang-20,howling horn-1-+35.0 DMG-+7.199999999999999 %.CRIT-+20.4 %.SPELL.DMG-+9.600000000000001 HP-+15.0 LVL,shiny pearl-101,clam shell-157,sleeping bag-1,pearl thread-1,bear fur-1,bear claw-13,silva flower-14,wisp essence-10,honey-16,wasp wing-1,wasp stinger-0,eye of the wolf-1-+24.0 DEF-+10.400000000000002 %.CRIT-+32.5 %.CRIT.DMG-+6.5 MP-+15.0 LVL,magic tentacle-33,wolf meat-0,wolf head-1-+40.0 DEF-+26.0 HP-+2.6000000000000005 %.CRIT-+13.0 MP-+15.0 LVL,shellfish-105,medium mp potion-6,tentacle chestplate-1-+50.4 DEF-+5.5 DMG-+27.5 HP-+27.5 MP-+25.0 LVL,small mixed potion-4,apple pie-5,inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL,medium mixed potion-1,potato salad-5,lucky elixir-1,
+ - Weapon: howling horn-1-+35.0 DMG-+7.199999999999999 %.CRIT-+20.4 %.SPELL.DMG-+9.600000000000001 HP-+15.0 LVL
+ - Armour: tentacle chestplate-1-+50.4 DEF-+5.5 DMG-+27.5 HP-+27.5 MP-+25.0 LVL
+ - Helmet: wolf head-1-+40.0 DEF-+26.0 HP-+2.6000000000000005 %.CRIT-+13.0 MP-+15.0 LVL
+ - Offhand: eye of the wolf-1-+24.0 DEF-+10.400000000000002 %.CRIT-+32.5 %.CRIT.DMG-+6.5 MP-+15.0 LVL
+ - Ring: inky ring-1-+35.0 DEF-+25.0 MP-+25.0 LVL
+ - Hp: 277
+ - Mp: 231
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Town 1
+ - Aurum: 25091
+ - Spells: poison cloud-1,life drain-5,
+ - EqSpells: 2,life drain
+ - Vars: quest-2023/6/29/21/23/41,2023/6/12/0/35/9,2023/6/12/0/35/9;daily1-elixir,,0,1;daily2-cook,wolf pasty,0,21;daily3-crits,,0,34;votes-24,0
+515776324468473857:
+ - Lvl: 1
+ - Xp: 21
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 47
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Apple Orchard
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 2
+ - Vars: quest-2023/6/29/21/23/41,2023/6/12/0/36/59,2023/6/12/0/36/59;daily1-cook,blueberry pie,0,7;daily2-crits,,0,14;daily3-travel,,0,27
+466323341700235274:
+ - Lvl: 1
+ - Xp: 0
+ - Inv: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL,
+ - Weapon: wooden sword-1-+5.0 DMG-+2.0 DEF-+1.0 LVL
+ - Armour: 
+ - Helmet: 
+ - Offhand: 
+ - Ring: 
+ - Hp: 50
+ - Mp: 50
+ - Battle: 0-0- , , -0,0,0-0,0,0-0:0,0:0,0:0-0-
+ - Area: Forest I
+ - Aurum: 100
+ - Spells: 
+ - EqSpells: 0
+ - Vars: quest-2023/6/29/21/23/41,2023/6/17/23/13/19,2023/6/17/23/13/19;daily1-cook,apple pie,0,5;daily2-travel,,0,36;daily3-vote,,0,1
